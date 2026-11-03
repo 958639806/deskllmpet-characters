@@ -1,0 +1,228 @@
+{
+  "character": {
+    "id": "white-dragon",
+    "name": "白发龙姬",
+    "description": "Appearance nickname only; no invented canonical background."
+  },
+  "canvas": {
+    "size": 512,
+    "baseline": 480,
+    "referenceVisibleHeight": 430,
+    "alphaAnalysisThreshold": 64
+  },
+  "groups": [
+    {
+      "id": "idle",
+      "ready": true,
+      "source": "raw/idle.png",
+      "columns": 4,
+      "rows": 3,
+      "grid": {
+        "columnBounds": [
+          0,
+          385,
+          722,
+          1065,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          355,
+          688,
+          1086
+        ]
+      },
+      "allowSourceEdge": false,
+      "fixedScale": 1.5140845070422535,
+      "anchor": "feet",
+      "headBandHeight": null,
+      "anchorTarget": null,
+      "footAnchorRegion": {
+        "space": "visible-bounds",
+        "left": 0.38,
+        "right": 0.69,
+        "top": 0.78,
+        "bottom": 1
+      },
+      "headAnchorRegion": null,
+      "calibration": {
+        "method": "one fixed scale from inspected neutral first-frame height",
+        "neutralHeight": 284,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.12,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.62
+        }
+      },
+      "timesMs": [
+        1000,
+        100,
+        100,
+        100,
+        80,
+        60,
+        60,
+        80,
+        60,
+        80,
+        100,
+        1000
+      ],
+      "output": "assets/characters/white-dragon/idle/白发龙姬-待机.webm",
+      "footBandRows": 10
+    },
+    {
+      "id": "click",
+      "ready": true,
+      "source": "raw/click.png",
+      "columns": 4,
+      "rows": 3,
+      "grid": {
+        "columnBounds": [
+          0,
+          408,
+          727,
+          1044,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          369,
+          697,
+          1086
+        ]
+      },
+      "allowSourceEdge": false,
+      "fixedScale": 1.4748301331780593,
+      "anchor": "feet",
+      "headBandHeight": null,
+      "anchorTarget": null,
+      "footAnchorRegion": {
+        "space": "visible-bounds",
+        "left": 0.38,
+        "right": 0.69,
+        "top": 0.78,
+        "bottom": 1
+      },
+      "headAnchorRegion": null,
+      "calibration": {
+        "method": "fixed neutral head/shoe-width geometric mean",
+        "headWeight": 0.5,
+        "referenceHeadWidth": 171,
+        "sourceHeadWidth": 175,
+        "referenceShoeWidth": 67,
+        "sourceShoeWidth": 69,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.12,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.62
+        },
+        "headScaleRatio": 0.9771428571428571,
+        "shoeScaleRatio": 0.9710144927536232
+      },
+      "timesMs": [
+        80,
+        80,
+        80,
+        80,
+        100,
+        100,
+        120,
+        100,
+        80,
+        80,
+        80,
+        80
+      ],
+      "output": "assets/characters/white-dragon/click/白发龙姬-摸头.webm",
+      "footBandRows": 10
+    },
+    {
+      "id": "carry",
+      "ready": true,
+      "source": "raw/carry.png",
+      "columns": 4,
+      "rows": 3,
+      "grid": {
+        "columnBounds": [
+          0,
+          390,
+          722,
+          1054,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          366,
+          699,
+          1086
+        ]
+      },
+      "allowSourceEdge": false,
+      "fixedScale": 1.6081270230076108,
+      "anchor": "head",
+      "headBandHeight": null,
+      "anchorTarget": {
+        "x": 246.48164147085473,
+        "y": 208.69841517293037
+      },
+      "footAnchorRegion": {
+        "space": "visible-bounds",
+        "left": 0.38,
+        "right": 0.69,
+        "top": 0.78,
+        "bottom": 1
+      },
+      "headAnchorRegion": {
+        "space": "visible-bounds",
+        "left": 0.12,
+        "right": 0.92,
+        "top": 0,
+        "bottom": 0.62
+      },
+      "calibration": {
+        "method": "one fixed neutral head-width ratio and reference idle head-centroid anchor",
+        "referenceHeadWidth": 171,
+        "sourceHeadWidth": 161,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.12,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.62
+        },
+        "referenceOutputHeadCentroid": {
+          "x": 246.48164147085473,
+          "y": 208.69841517293037
+        }
+      },
+      "timesMs": [
+        120,
+        80,
+        80,
+        80,
+        80,
+        60,
+        60,
+        80,
+        60,
+        80,
+        80,
+        120
+      ],
+      "output": "assets/characters/white-dragon/click/白发龙姬-拖拽悬空.webm",
+      "footBandRows": 10
+    }
+  ],
+  "reference": {
+    "file": "character-source/characters/white-dragon/reference/4-50634.jpg",
+    "originalFilename": "50634.jpg",
+    "providedByUser": true,
+    "sha256": "5de21d8f7a60c3a1a4427c4099acd9c32fe24dc08c70b1a1251da733cb003f01",
+    "use": "Appearance reference only; character display name is an appearance nickname."
+  }
+}

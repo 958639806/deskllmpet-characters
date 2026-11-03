@@ -1,0 +1,659 @@
+{
+  "schemaVersion": 1,
+  "character": "蓝发女仆",
+  "canvas": {
+    "size": 512,
+    "baseline": 480,
+    "referenceVisibleHeight": 430,
+    "alphaAnalysisThreshold": 64
+  },
+  "technicalOperations": [
+    "crop",
+    "one uniform scale per action",
+    "foot-anchor translation",
+    "alpha-preserving PNG export",
+    "optional alpha WebM encoding"
+  ],
+  "generatedIntermediatePoses": false,
+  "crossfadeFrames": false,
+  "groups": {
+    "idle": {
+      "id": "idle",
+      "source": "raw/idle-v2.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "3af60dee3ceb75b9c540d89f35c1b16d2fe9ceae7685f7ee5a1417f8afdbf727",
+      "genuineDrawings": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/frames/idle/frame-01.png",
+          "durationMs": 1000
+        },
+        {
+          "file": "character-source/frames/idle/frame-02.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/frames/idle/frame-03.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/frames/idle/frame-04.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/frames/idle/frame-05.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/idle/frame-06.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/frames/idle/frame-07.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/frames/idle/frame-08.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/idle/frame-09.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/frames/idle/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/idle/frame-11.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/frames/idle/frame-12.png",
+          "durationMs": 1000
+        }
+      ],
+      "output": "assets/animations/idle/蓝发女仆-待机.webm",
+      "totalDurationMs": 2820,
+      "groupUniformScale": 1.5867158671586716,
+      "neutralFrameCalibration": null,
+      "anchor": {
+        "mode": "feet",
+        "target": {
+          "x": 256,
+          "y": 480
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9874506073466999,
+          "rgbMeanAbsoluteDifferenceOverUnion": 12.116408117469145
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9836396357092217,
+          "rgbMeanAbsoluteDifferenceOverUnion": 12.991374452382251
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9750749102426822,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.090171236266457
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9331914779961005,
+          "rgbMeanAbsoluteDifferenceOverUnion": 35.219852031231916
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9850411782608295,
+          "rgbMeanAbsoluteDifferenceOverUnion": 16.79022604236796
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9777441304704745,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.37612419504898
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9889625934250681,
+          "rgbMeanAbsoluteDifferenceOverUnion": 13.583776474243006
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9650440139240737,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.61515913661023
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.99069888572651,
+          "rgbMeanAbsoluteDifferenceOverUnion": 12.939397039765364
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9601777988718716,
+          "rgbMeanAbsoluteDifferenceOverUnion": 26.032386533043695
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9740083955991696,
+          "rgbMeanAbsoluteDifferenceOverUnion": 21.098780900469166
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9497915094000503,
+          "rgbMeanAbsoluteDifferenceOverUnion": 30.90192254694034
+        }
+      ],
+      "auditFile": "character-source/audits/idle.json",
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "Foot band alpha centroid and visible sole baseline define translation anchors.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/animations/idle/蓝发女仆-待机.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 141,
+        "durationMs": 2820,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 539981,
+        "sha256": "3e5b49819ff8daf2b42484f7fb015a708b8cfecac7279d5b261438a07f3926ce",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "141",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "2.820000",
+            "size": "539981"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 139758,
+          "foregroundPixels": 108749,
+          "width": 512,
+          "height": 512
+        }
+      }
+    },
+    "click": {
+      "id": "click",
+      "source": "raw/click-v1.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "1d08973c02e3f56ce9b6577c88a27410abaeae0360ec0b1ed380364c535a281e",
+      "genuineDrawings": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/frames/click/frame-01.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/click/frame-02.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/click/frame-03.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/click/frame-04.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/click/frame-05.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/frames/click/frame-06.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/frames/click/frame-07.png",
+          "durationMs": 120
+        },
+        {
+          "file": "character-source/frames/click/frame-08.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/frames/click/frame-09.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/click/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/click/frame-11.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/click/frame-12.png",
+          "durationMs": 80
+        }
+      ],
+      "output": "assets/animations/click/蓝发女仆-摸头.webm",
+      "totalDurationMs": 1060,
+      "groupUniformScale": 1.4124489137642462,
+      "neutralFrameCalibration": {
+        "reference": "idle frame-01",
+        "method": "fixed neutral-frame head and shoe-width geometric mean",
+        "referenceHeadWidth": 227,
+        "sourceHeadWidth": 259,
+        "referenceShoeWidth": 66,
+        "sourceShoeWidth": 73,
+        "headBandFraction": 0.62,
+        "shoeBandLastRows": 18
+      },
+      "anchor": {
+        "mode": "feet",
+        "target": {
+          "x": 256,
+          "y": 480
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9778583073433513,
+          "rgbMeanAbsoluteDifferenceOverUnion": 20.899646181835365
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.944087682454831,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.478238482855176
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9766852375042907,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.655656184264956
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9567408285674431,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.67134537592412
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9259046327838749,
+          "rgbMeanAbsoluteDifferenceOverUnion": 36.0575801519949
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9654580301624331,
+          "rgbMeanAbsoluteDifferenceOverUnion": 21.354066031272495
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9065638360298433,
+          "rgbMeanAbsoluteDifferenceOverUnion": 38.82599267890575
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9717835315421984,
+          "rgbMeanAbsoluteDifferenceOverUnion": 26.12178672377868
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9916560649265189,
+          "rgbMeanAbsoluteDifferenceOverUnion": 13.70277107552826
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9779347250093386,
+          "rgbMeanAbsoluteDifferenceOverUnion": 19.1193870370853
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9739101088593136,
+          "rgbMeanAbsoluteDifferenceOverUnion": 23.194922783152478
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9642387451335603,
+          "rgbMeanAbsoluteDifferenceOverUnion": 19.373028384298493
+        }
+      ],
+      "auditFile": "character-source/audits/click.json",
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "Foot band alpha centroid and visible sole baseline define translation anchors.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/animations/click/蓝发女仆-摸头.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 53,
+        "durationMs": 1060,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 515000,
+        "sha256": "ada0e42bc58d70409cc24d7de40031900b1f2e0195e880e8f3778600070ad6f7",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "53",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "1.060000",
+            "size": "515000"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 137865,
+          "foregroundPixels": 111646,
+          "width": 512,
+          "height": 512
+        }
+      }
+    },
+    "carry": {
+      "id": "carry",
+      "source": "raw/carry-v1.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "82b3dc8501b951ccd02c1684c074f6193e077de764abbb68026edb11c79e09ee",
+      "genuineDrawings": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/frames/carry/frame-01.png",
+          "durationMs": 120
+        },
+        {
+          "file": "character-source/frames/carry/frame-02.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/carry/frame-03.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/carry/frame-04.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/carry/frame-05.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/carry/frame-06.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/frames/carry/frame-07.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/frames/carry/frame-08.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/carry/frame-09.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/frames/carry/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/carry/frame-11.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/frames/carry/frame-12.png",
+          "durationMs": 120
+        }
+      ],
+      "output": "assets/animations/click/蓝发女仆-拖拽悬空.webm",
+      "totalDurationMs": 980,
+      "groupUniformScale": 1.3747500070420553,
+      "neutralFrameCalibration": {
+        "reference": "idle frame-01",
+        "method": "fixed neutral first-frame head contour width ratio; stable head centroid anchor",
+        "referenceHeadWidth": 227,
+        "sourceHeadWidth": 262,
+        "headBandFraction": 0.62,
+        "referenceSourceHeadCentroid": {
+          "x": 213.9502789879997,
+          "y": 207.33895131086143
+        }
+      },
+      "anchor": {
+        "mode": "head",
+        "bandHeight": 195,
+        "target": {
+          "x": 262.0424926211376,
+          "y": 205.12787681475893
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.988706881033813,
+          "rgbMeanAbsoluteDifferenceOverUnion": 11.637672783772773
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9831811356746905,
+          "rgbMeanAbsoluteDifferenceOverUnion": 11.694660333229455
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9831714234563597,
+          "rgbMeanAbsoluteDifferenceOverUnion": 13.609349627968479
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9577023790664517,
+          "rgbMeanAbsoluteDifferenceOverUnion": 26.26695927413468
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9658445980806935,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.237399273928013
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9776131361404105,
+          "rgbMeanAbsoluteDifferenceOverUnion": 16.43902760889442
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9846554089210539,
+          "rgbMeanAbsoluteDifferenceOverUnion": 16.21350929473535
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9701622983018354,
+          "rgbMeanAbsoluteDifferenceOverUnion": 28.78908112409038
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9569975079165808,
+          "rgbMeanAbsoluteDifferenceOverUnion": 20.972899373543942
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9551325755806894,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.860497551468963
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9735854706052979,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.867840021957527
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9771008127334497,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.523459153731128
+        }
+      ],
+      "auditFile": "character-source/audits/carry.json",
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The head-band alpha centroid stays fixed; feet can move naturally while suspended.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/animations/click/蓝发女仆-拖拽悬空.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 49,
+        "durationMs": 980,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 469745,
+        "sha256": "6a2d93fb6bdf462f75b3486443bfe9b3be4bc0cb355bc6f68038cbad4b8b16af",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "49",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "0.980000",
+            "size": "469745"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 146923,
+          "foregroundPixels": 104854,
+          "width": 512,
+          "height": 512
+        }
+      }
+    }
+  }
+}

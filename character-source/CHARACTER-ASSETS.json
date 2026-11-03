@@ -1,0 +1,87 @@
+{
+  "mode": "built-in image_gen",
+  "transparentBackground": true,
+  "promptSets": [
+    "CHARACTER-GENERATION-PROMPTS.txt",
+    "CHARACTER-CARRY-PROMPTS.txt"
+  ],
+  "characters": [
+    {
+      "id": "blonde-reaper",
+      "reference": "characters/blonde-reaper/reference/1-50628.jpg",
+      "rawSheets": [
+        {
+          "action": "idle",
+          "path": "characters/blonde-reaper/raw/idle.png"
+        },
+        {
+          "action": "click",
+          "path": "characters/blonde-reaper/raw/click.png"
+        },
+        {
+          "action": "carry",
+          "path": "characters/blonde-reaper/raw/carry.png"
+        }
+      ],
+      "technicalManifest": "characters/blonde-reaper/manifest.json"
+    },
+    {
+      "id": "orange-mage",
+      "reference": "characters/orange-mage/reference/2-50629.jpg",
+      "rawSheets": [
+        {
+          "action": "idle",
+          "path": "characters/orange-mage/raw/idle.png"
+        },
+        {
+          "action": "click",
+          "path": "characters/orange-mage/raw/click.png"
+        },
+        {
+          "action": "carry",
+          "path": "characters/orange-mage/raw/carry.png"
+        }
+      ],
+      "technicalManifest": "characters/orange-mage/manifest.json"
+    },
+    {
+      "id": "violet-cat",
+      "reference": "characters/violet-cat/reference/3-50630.jpg",
+      "rawSheets": [
+        {
+          "action": "idle",
+          "path": "characters/violet-cat/raw/idle.png"
+        },
+        {
+          "action": "click",
+          "path": "characters/violet-cat/raw/click.png"
+        },
+        {
+          "action": "carry",
+          "path": "characters/violet-cat/raw/carry.png"
+        }
+      ],
+      "technicalManifest": "characters/violet-cat/manifest.json"
+    },
+    {
+      "id": "white-dragon",
+      "reference": "characters/white-dragon/reference/4-50634.jpg",
+      "rawSheets": [
+        {
+          "action": "idle",
+          "path": "characters/white-dragon/raw/idle.png"
+        },
+        {
+          "action": "click",
+          "path": "characters/white-dragon/raw/click.png"
+        },
+        {
+          "action": "carry",
+          "path": "characters/white-dragon/raw/carry.png"
+        }
+      ],
+      "technicalManifest": "characters/white-dragon/manifest.json"
+    }
+  ],
+  "technicalSummary": "characters/packaging-summary.json"
+}

@@ -1,0 +1,16 @@
+{
+  "upstream": {
+    "repository": "https://github.com/isKage/desk-llm-pet",
+    "commit": "ae433e3cc2eafaa52a7a869ca2c13a3be2ac53bd",
+    "version": "1.1.0",
+    "license": "MIT"
+  },
+  "edition": "Five-character edition based on the verified Blue Maid visibility fix",
+  "createdForDate": "2026-10-17",
+  "updatedForDate": "2026-11-03",
+  "characterReference": "User supplied 50628.jpg, 50629.jpg, 50630.jpg, 50634.jpg and 50635.jpg three-view designs",
+  "artGeneration": "Built-in image_gen with reference image; actual alpha requested. Technical extraction, fixed-scale alignment and VP9-alpha encoding recorded in character-source.",
+  "scope": ["independent Windows portable app", "DeepSeek balance", "streaming chat", "five selectable characters", "15 idle/pat/carry animations", "preserved user configuration"],
+  "credentialScope": "Primary host Key uses safeStorage; optional separate plugin Key storage is unchanged.",
+  "liveDeepSeekTested": false
+}

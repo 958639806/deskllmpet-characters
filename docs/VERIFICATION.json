@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "edition": "DeskLLMPet five-character edition",
+  "releaseTag": "v1.1.0-characters",
+  "platform": "windows-x64",
+  "artifact": {
+    "file": "DeskLLMPet-BlueMaid-v1.1.0-characters.zip",
+    "bytes": 121129697,
+    "sha256": "f17fa23e4cb7db073dd0c13de9fbca9a2f3110a19ad423214f9e3bf0775e0d53"
+  },
+  "automatedChecks": {
+    "sourceSelfCheck": {
+      "passed": 34,
+      "total": 34,
+      "result": "passed"
+    },
+    "deepSeekLocalMockClient": {
+      "passed": 26,
+      "total": 26,
+      "result": "passed"
+    },
+    "playerAndWindowRegressions": {
+      "passed": 16,
+      "total": 16,
+      "result": "passed"
+    },
+    "characterCatalogAndConfiguration": {
+      "passed": 7,
+      "total": 7,
+      "result": "passed"
+    },
+    "realElectronCharacterIntegration": {
+      "passed": 34,
+      "total": 34,
+      "result": "passed"
+    },
+    "realElectronRendererSmoke": {
+      "passed": 15,
+      "total": 15,
+      "result": "passed"
+    }
+  },
+  "packagedApplication": {
+    "independentWindowsExecutableStarted": true,
+    "isolatedTestProfileUsed": true,
+    "appVersion": "1.1.0",
+    "charactersSelectedThroughRealPackagedIPC": 5,
+    "productionAnimationFilesResolvedInsidePackage": 15,
+    "all15AnimationFileHashesMatchedPackagedManifest": true,
+    "idlePlaybackObservedForAll5Characters": true,
+    "normalExitCode": 0,
+    "defaultCharacterId": "blue-maid",
+    "characters": [
+      {
+        "id": "blue-maid",
+        "name": "蓝鲸女仆",
+        "actions": {
+          "idle": {
+            "file": "resources/app/assets/animations/idle/蓝发女仆-待机.webm",
+            "bytes": 539981,
+            "sha256": "3e5b49819ff8daf2b42484f7fb015a708b8cfecac7279d5b261438a07f3926ce"
+          },
+          "pat": {
+            "file": "resources/app/assets/animations/click/蓝发女仆-摸头.webm",
+            "bytes": 515000,
+            "sha256": "ada0e42bc58d70409cc24d7de40031900b1f2e0195e880e8f3778600070ad6f7"
+          },
+          "carry": {
+            "file": "resources/app/assets/animations/click/蓝发女仆-拖拽悬空.webm",
+            "bytes": 469745,
+            "sha256": "6a2d93fb6bdf462f75b3486443bfe9b3be4bc0cb355bc6f68038cbad4b8b16af"
+          }
+        }
+      },
+      {
+        "id": "blonde-reaper",
+        "name": "金发战斧",
+        "actions": {
+          "idle": {
+            "file": "resources/app/assets/characters/blonde-reaper/idle/金发战斧-待机.webm",
+            "bytes": 776203,
+            "sha256": "cb428acf8751922ce2720b0a24f1bd0671dd2bd76e4418cee273663b1e11a08c"
+          },
+          "pat": {
+            "file": "resources/app/assets/characters/blonde-reaper/click/金发战斧-摸头.webm",
+            "bytes": 612871,
+            "sha256": "e89e701c4f6073e2cf5f3876050f9d1d05ffe00f853c1965c3de4e8afe6afba2"
+          },
+          "carry": {
+            "file": "resources/app/assets/characters/blonde-reaper/click/金发战斧-拖拽悬空.webm",
+            "bytes": 600791,
+            "sha256": "34cf74922244d9fdc713c7a573d4fd0defa71861485c6c16862e6c26f99b5e6f"
+          }
+        }
+      },
+      {
+        "id": "orange-mage",
+        "name": "橙发花语",
+        "actions": {
+          "idle": {
+            "file": "resources/app/assets/characters/orange-mage/idle/橙发花语-待机.webm",
+            "bytes": 709202,
+            "sha256": "785d5ecdbc911e6b1ef6cd8ba67111398fc6e7972211409053dd660593188831"
+          },
+          "pat": {
+            "file": "resources/app/assets/characters/orange-mage/click/橙发花语-摸头.webm",
+            "bytes": 625879,
+            "sha256": "7f67df461416cf88f93f8c1ddf4891c12a0e8fefe906fbae52dd5834afa208ad"
+          },
+          "carry": {
+            "file": "resources/app/assets/characters/orange-mage/click/橙发花语-拖拽悬空.webm",
+            "bytes": 661434,
+            "sha256": "afdbab3f42058eb36535da43fea8a4601160e6d26565e51cb39db3d28c86803e"
+          }
+        }
+      },
+      {
+        "id": "violet-cat",
+        "name": "紫发星猫",
+        "actions": {
+          "idle": {
+            "file": "resources/app/assets/characters/violet-cat/idle/紫发星猫-待机.webm",
+            "bytes": 841337,
+            "sha256": "2a52f9eafe0a7559b5e8f164963641f8d9b2ecfe519cea683c8e23ef749480be"
+          },
+          "pat": {
+            "file": "resources/app/assets/characters/violet-cat/click/紫发星猫-摸头.webm",
+            "bytes": 640473,
+            "sha256": "15963fb4cd0c7d895050e79a4339cd10da42fdb787b6051f10b090dd76f2161e"
+          },
+          "carry": {
+            "file": "resources/app/assets/characters/violet-cat/click/紫发星猫-拖拽悬空.webm",
+            "bytes": 717937,
+            "sha256": "1eebf9546243a2ee19dfd51a0a81012613950361f4234fca1c5b6a6693b7bccb"
+          }
+        }
+      },
+      {
+        "id": "white-dragon",
+        "name": "白发龙姬",
+        "actions": {
+          "idle": {
+            "file": "resources/app/assets/characters/white-dragon/idle/白发龙姬-待机.webm",
+            "bytes": 654968,
+            "sha256": "4a25fc5f3e84bf9cd65d62e836dc14209c9ddcb7a9fc7c4c79905161320bfe4a"
+          },
+          "pat": {
+            "file": "resources/app/assets/characters/white-dragon/click/白发龙姬-摸头.webm",
+            "bytes": 548555,
+            "sha256": "fa10f801f583ca969ec399aede3419c52267a5219d2b1e58adfdad2c1839524c"
+          },
+          "carry": {
+            "file": "resources/app/assets/characters/white-dragon/click/白发龙姬-拖拽悬空.webm",
+            "bytes": 498784,
+            "sha256": "64563a70d1e98f5a863c32f579ecd2a9c51458bf570e96beb2bafea6b0b62ca4"
+          }
+        }
+      }
+    ]
+  },
+  "shortPlaybackSample": {
+    "durationSeconds": 3.009,
+    "observedPresentedFramesPerSecond": 50.18,
+    "droppedFrameDelta": 0,
+    "scope": "One short local sample; not a guarantee for every machine or sustained playback.",
+    "establishesNativeDesktopVisibility": false
+  },
+  "nativeDesktopObservation": {
+    "method": "Actual Windows desktop screenshots using computer-use, separate from renderer counters.",
+    "observedNewCharacterIds": [
+      "blonde-reaper",
+      "orange-mage",
+      "violet-cat",
+      "white-dragon"
+    ],
+    "all4NewCharactersObservedVisible": true
+  },
+  "limitations": {
+    "liveDeepSeekTested": false,
+    "realAccountBalanceVerified": false,
+    "liveModelRepliesVerified": false,
+    "fullRealMouseExperienceAccepted": false,
+    "fullMultiMonitorExperienceAccepted": false,
+    "apiTestsUsedLocalMocks": true,
+    "animationTimelineNote": "50 fps WebM timelines include held frames; they do not represent 50 different drawings per second."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "canvas": {
+    "size": 512,
+    "baseline": 480,
+    "referenceVisibleHeight": 430,
+    "alphaAnalysisThreshold": 64
+  },
+  "groups": [
+    {
+      "id": "idle",
+      "source": "raw/idle-v2.png",
+      "columns": 4,
+      "rows": 3,
+      "allowSourceEdge": false,
+      "timesMs": [
+        1000,
+        100,
+        100,
+        100,
+        80,
+        60,
+        60,
+        80,
+        60,
+        80,
+        100,
+        1000
+      ],
+      "output": "assets/animations/idle/蓝发女仆-待机.webm",
+      "fixedScale": 1.5867158671586716
+    },
+    {
+      "id": "click",
+      "source": "raw/click-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "allowSourceEdge": false,
+      "fixedScale": 1.4124489137642462,
+      "calibration": {
+        "reference": "idle frame-01",
+        "method": "fixed neutral-frame head and shoe-width geometric mean",
+        "referenceHeadWidth": 227,
+        "sourceHeadWidth": 259,
+        "referenceShoeWidth": 66,
+        "sourceShoeWidth": 73,
+        "headBandFraction": 0.62,
+        "shoeBandLastRows": 18
+      },
+      "timesMs": [
+        80,
+        80,
+        80,
+        80,
+        100,
+        100,
+        120,
+        100,
+        80,
+        80,
+        80,
+        80
+      ],
+      "output": "assets/animations/click/蓝发女仆-摸头.webm"
+    },
+    {
+      "id": "carry",
+      "source": "raw/carry-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "allowSourceEdge": false,
+      "fixedScale": 1.3747500070420553,
+      "anchor": "head",
+      "headBandHeight": 195,
+      "anchorTarget": {
+        "x": 262.0424926211376,
+        "y": 205.12787681475893
+      },
+      "calibration": {
+        "reference": "idle frame-01",
+        "method": "fixed neutral first-frame head contour width ratio; stable head centroid anchor",
+        "referenceHeadWidth": 227,
+        "sourceHeadWidth": 262,
+        "headBandFraction": 0.62,
+        "referenceSourceHeadCentroid": {
+          "x": 213.9502789879997,
+          "y": 207.33895131086143
+        }
+      },
+      "timesMs": [
+        120,
+        80,
+        80,
+        80,
+        80,
+        60,
+        60,
+        80,
+        60,
+        80,
+        80,
+        120
+      ],
+      "output": "assets/animations/click/蓝发女仆-拖拽悬空.webm"
+    }
+  ]
+}

@@ -1,0 +1,2126 @@
+{
+  "schemaVersion": 2,
+  "character": {
+    "id": "orange-mage",
+    "name": "橙发花语",
+    "description": "Appearance nickname only; no invented canonical background."
+  },
+  "canvas": {
+    "size": 512,
+    "baseline": 480,
+    "referenceVisibleHeight": 430,
+    "alphaAnalysisThreshold": 64
+  },
+  "technicalOperations": [
+    "crop",
+    "one uniform scale per action",
+    "declared foot/head-anchor translation",
+    "alpha-preserving PNG export",
+    "optional alpha WebM encoding"
+  ],
+  "generatedIntermediatePoses": false,
+  "crossfadeFrames": false,
+  "groups": {
+    "idle": {
+      "id": "idle",
+      "source": "raw/idle.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "98b963f07568712360e879ca98337537d6d760d7beaf4949cc3458afb392f8f4",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-01.png",
+          "durationMs": 1000
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-02.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-03.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-04.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-05.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-06.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-07.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-08.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-09.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-11.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/idle/frame-12.png",
+          "durationMs": 1000
+        }
+      ],
+      "output": "assets/characters/orange-mage/idle/橙发花语-待机.webm",
+      "totalDurationMs": 2820,
+      "groupUniformScale": 1.5034965034965035,
+      "neutralFrameCalibration": {
+        "method": "one fixed scale from inspected neutral first-frame height",
+        "neutralHeight": 286,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.08,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.6
+        }
+      },
+      "anchor": {
+        "mode": "feet",
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.3,
+          "right": 0.7,
+          "top": 0.78,
+          "bottom": 1
+        },
+        "target": {
+          "x": 256,
+          "y": 480
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9601632868588604,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.939116071096127
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9757761366778994,
+          "rgbMeanAbsoluteDifferenceOverUnion": 21.57359513542488
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9775495728867919,
+          "rgbMeanAbsoluteDifferenceOverUnion": 20.71413739579157
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9676567251282366,
+          "rgbMeanAbsoluteDifferenceOverUnion": 28.09383201427923
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9555021291334732,
+          "rgbMeanAbsoluteDifferenceOverUnion": 27.290838953294895
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9650344622148265,
+          "rgbMeanAbsoluteDifferenceOverUnion": 26.688699885981944
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9757015352400302,
+          "rgbMeanAbsoluteDifferenceOverUnion": 20.482230538249695
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9711504644475246,
+          "rgbMeanAbsoluteDifferenceOverUnion": 24.994348704581032
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9834224876655414,
+          "rgbMeanAbsoluteDifferenceOverUnion": 16.12755820998875
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9878485599450217,
+          "rgbMeanAbsoluteDifferenceOverUnion": 11.56421763607461
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.989286457249844,
+          "rgbMeanAbsoluteDifferenceOverUnion": 11.143474793703627
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9539626092257671,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.351452956716116
+        }
+      ],
+      "auditFile": "character-source/characters/orange-mage/audits/idle.json",
+      "sourceAnalysis": {
+        "character": "orange-mage",
+        "group": "idle",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "98b963f07568712360e879ca98337537d6d760d7beaf4949cc3458afb392f8f4",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 1059,
+            "right": 1294,
+            "top": 48,
+            "bottom": 335,
+            "width": 236,
+            "height": 288,
+            "pixels": 42410
+          },
+          {
+            "left": 757,
+            "right": 992,
+            "top": 49,
+            "bottom": 335,
+            "width": 236,
+            "height": 287,
+            "pixels": 42502
+          },
+          {
+            "left": 155,
+            "right": 385,
+            "top": 50,
+            "bottom": 335,
+            "width": 231,
+            "height": 286,
+            "pixels": 42633
+          },
+          {
+            "left": 456,
+            "right": 690,
+            "top": 49,
+            "bottom": 336,
+            "width": 235,
+            "height": 288,
+            "pixels": 42649
+          },
+          {
+            "left": 154,
+            "right": 389,
+            "top": 383,
+            "bottom": 668,
+            "width": 236,
+            "height": 286,
+            "pixels": 42496
+          },
+          {
+            "left": 456,
+            "right": 690,
+            "top": 383,
+            "bottom": 668,
+            "width": 235,
+            "height": 286,
+            "pixels": 42336
+          },
+          {
+            "left": 761,
+            "right": 991,
+            "top": 384,
+            "bottom": 668,
+            "width": 231,
+            "height": 285,
+            "pixels": 42122
+          },
+          {
+            "left": 1063,
+            "right": 1293,
+            "top": 386,
+            "bottom": 668,
+            "width": 231,
+            "height": 283,
+            "pixels": 41908
+          },
+          {
+            "left": 158,
+            "right": 386,
+            "top": 718,
+            "bottom": 1002,
+            "width": 229,
+            "height": 285,
+            "pixels": 42110
+          },
+          {
+            "left": 459,
+            "right": 689,
+            "top": 718,
+            "bottom": 1002,
+            "width": 231,
+            "height": 285,
+            "pixels": 42086
+          },
+          {
+            "left": 760,
+            "right": 990,
+            "top": 718,
+            "bottom": 1002,
+            "width": 231,
+            "height": 285,
+            "pixels": 42086
+          },
+          {
+            "left": 1062,
+            "right": 1292,
+            "top": 718,
+            "bottom": 1002,
+            "width": 231,
+            "height": 285,
+            "pixels": 42214
+          }
+        ],
+        "columnBounds": [
+          0,
+          423,
+          724,
+          1025,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          360,
+          693,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 47,
+              "length": 48
+            },
+            {
+              "start": 337,
+              "end": 382,
+              "length": 46
+            },
+            {
+              "start": 669,
+              "end": 717,
+              "length": 49
+            },
+            {
+              "start": 1003,
+              "end": 1085,
+              "length": 83
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 153,
+              "length": 154
+            },
+            {
+              "start": 390,
+              "end": 455,
+              "length": 66
+            },
+            {
+              "start": 691,
+              "end": 756,
+              "length": 66
+            },
+            {
+              "start": 993,
+              "end": 1058,
+              "length": 66
+            },
+            {
+              "start": 1295,
+              "end": 1447,
+              "length": 153
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.08,
+            "right": 0.92,
+            "top": 0,
+            "bottom": 0.6
+          },
+          "head": {
+            "left": 173,
+            "top": 50,
+            "right": 367,
+            "bottom": 221,
+            "width": 195,
+            "height": 172,
+            "pixels": 23922,
+            "centroidX": 270.157386506145,
+            "centroidY": 147.3450798428225
+          },
+          "shoeBand": {
+            "left": 250,
+            "top": 326,
+            "right": 291,
+            "bottom": 335,
+            "width": 42,
+            "height": 10,
+            "pixels": 374,
+            "centroidX": 270.3368983957219,
+            "centroidY": 330.3288770053476
+          },
+          "footBaseline": 335,
+          "visible": {
+            "left": 155,
+            "top": 50,
+            "right": 385,
+            "bottom": 335,
+            "width": 231,
+            "height": 286,
+            "pixels": 42633,
+            "centroidX": 270.3786034292684,
+            "centroidY": 198.91565219430956
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 423,
+              "height": 360
+            },
+            "visibleBounds": {
+              "left": 155,
+              "top": 50,
+              "right": 385,
+              "bottom": 335,
+              "width": 231,
+              "height": 286,
+              "pixels": 42633,
+              "centroidX": 270.3786034292684,
+              "centroidY": 198.91565219430956
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 423,
+              "top": 0,
+              "width": 301,
+              "height": 360
+            },
+            "visibleBounds": {
+              "left": 456,
+              "top": 49,
+              "right": 690,
+              "bottom": 336,
+              "width": 235,
+              "height": 288,
+              "pixels": 42650,
+              "centroidX": 149.89824150058615,
+              "centroidY": 198.4783587338804
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 724,
+              "top": 0,
+              "width": 301,
+              "height": 360
+            },
+            "visibleBounds": {
+              "left": 757,
+              "top": 49,
+              "right": 992,
+              "bottom": 335,
+              "width": 236,
+              "height": 287,
+              "pixels": 42503,
+              "centroidX": 151.0555254923182,
+              "centroidY": 197.7179257934734
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1025,
+              "top": 0,
+              "width": 423,
+              "height": 360
+            },
+            "visibleBounds": {
+              "left": 1059,
+              "top": 48,
+              "right": 1294,
+              "bottom": 335,
+              "width": 236,
+              "height": 288,
+              "pixels": 42410,
+              "centroidX": 152.71360528177317,
+              "centroidY": 196.7987738740863
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 360,
+              "width": 423,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 154,
+              "top": 383,
+              "right": 389,
+              "bottom": 668,
+              "width": 236,
+              "height": 286,
+              "pixels": 42496,
+              "centroidX": 272.2101374246988,
+              "centroidY": 170.87335278614458
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 423,
+              "top": 360,
+              "width": 301,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 456,
+              "top": 383,
+              "right": 690,
+              "bottom": 668,
+              "width": 235,
+              "height": 286,
+              "pixels": 42336,
+              "centroidX": 150.7874858276644,
+              "centroidY": 171.82671957671957
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 724,
+              "top": 360,
+              "width": 301,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 761,
+              "top": 384,
+              "right": 991,
+              "bottom": 668,
+              "width": 231,
+              "height": 285,
+              "pixels": 42123,
+              "centroidX": 151.42126629157468,
+              "centroidY": 172.65152054696958
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1025,
+              "top": 360,
+              "width": 423,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 1063,
+              "top": 386,
+              "right": 1293,
+              "bottom": 668,
+              "width": 231,
+              "height": 283,
+              "pixels": 41908,
+              "centroidX": 152.30249594349527,
+              "centroidY": 173.43371194044096
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 693,
+              "width": 423,
+              "height": 393
+            },
+            "visibleBounds": {
+              "left": 158,
+              "top": 718,
+              "right": 386,
+              "bottom": 1002,
+              "width": 229,
+              "height": 285,
+              "pixels": 42110,
+              "centroidX": 271.8200664925196,
+              "centroidY": 173.24561861790548
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 423,
+              "top": 693,
+              "width": 301,
+              "height": 393
+            },
+            "visibleBounds": {
+              "left": 459,
+              "top": 718,
+              "right": 689,
+              "bottom": 1002,
+              "width": 231,
+              "height": 285,
+              "pixels": 42086,
+              "centroidX": 150.66882098560092,
+              "centroidY": 173.28463146889703
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 724,
+              "top": 693,
+              "width": 301,
+              "height": 393
+            },
+            "visibleBounds": {
+              "left": 760,
+              "top": 718,
+              "right": 990,
+              "bottom": 1002,
+              "width": 231,
+              "height": 285,
+              "pixels": 42086,
+              "centroidX": 150.96326569405502,
+              "centroidY": 173.4289787577817
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1025,
+              "top": 693,
+              "width": 423,
+              "height": 393
+            },
+            "visibleBounds": {
+              "left": 1062,
+              "top": 718,
+              "right": 1292,
+              "bottom": 1002,
+              "width": 231,
+              "height": 285,
+              "pixels": 42214,
+              "centroidX": 152.00026057705975,
+              "centroidY": 173.2551049414886
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared foot-region alpha centroid and sole baseline define translation anchors.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/orange-mage/idle/橙发花语-待机.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 141,
+        "durationMs": 2820,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 709202,
+        "sha256": "785d5ecdbc911e6b1ef6cd8ba67111398fc6e7972211409053dd660593188831",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "141",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "2.820000",
+            "size": "709202"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 149780,
+          "foregroundPixels": 96511,
+          "width": 512,
+          "height": 512
+        }
+      }
+    },
+    "click": {
+      "id": "click",
+      "source": "raw/click.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "4885e81d8b6739e1a40f573a065de67caab114133501c162f5215bdbdf0f8ac1",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-01.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-02.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-03.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-04.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-05.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-06.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-07.png",
+          "durationMs": 120
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-08.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-09.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-11.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/click/frame-12.png",
+          "durationMs": 80
+        }
+      ],
+      "output": "assets/characters/orange-mage/click/橙发花语-摸头.webm",
+      "totalDurationMs": 1060,
+      "groupUniformScale": 1.4291717561003583,
+      "neutralFrameCalibration": {
+        "method": "fixed neutral head/shoe-width geometric mean",
+        "headWeight": 0.5,
+        "referenceHeadWidth": 195,
+        "sourceHeadWidth": 206,
+        "referenceShoeWidth": 42,
+        "sourceShoeWidth": 44,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.08,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.6
+        },
+        "headScaleRatio": 0.9466019417475728,
+        "shoeScaleRatio": 0.9545454545454546
+      },
+      "anchor": {
+        "mode": "feet",
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.3,
+          "right": 0.7,
+          "top": 0.78,
+          "bottom": 1
+        },
+        "target": {
+          "x": 256,
+          "y": 480
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9661126539611202,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.41762240924862
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9764142826414283,
+          "rgbMeanAbsoluteDifferenceOverUnion": 17.823911952391196
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9838584292470146,
+          "rgbMeanAbsoluteDifferenceOverUnion": 16.89064760629683
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9564779367318155,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.087213803196285
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9290887618490223,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.496772328069422
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9654309099662975,
+          "rgbMeanAbsoluteDifferenceOverUnion": 26.075536297009577
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9474836117572425,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.888767886092904
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9505631710375202,
+          "rgbMeanAbsoluteDifferenceOverUnion": 29.185237086753276
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9584660128221458,
+          "rgbMeanAbsoluteDifferenceOverUnion": 28.205444458596922
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9578459077579312,
+          "rgbMeanAbsoluteDifferenceOverUnion": 23.03445481205012
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9741693450429436,
+          "rgbMeanAbsoluteDifferenceOverUnion": 16.851942225900885
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9588873282571734,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.883832676811945
+        }
+      ],
+      "auditFile": "character-source/characters/orange-mage/audits/click.json",
+      "sourceAnalysis": {
+        "character": "orange-mage",
+        "group": "click",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "4885e81d8b6739e1a40f573a065de67caab114133501c162f5215bdbdf0f8ac1",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 142,
+            "right": 385,
+            "top": 53,
+            "bottom": 342,
+            "width": 244,
+            "height": 290,
+            "pixels": 45672
+          },
+          {
+            "left": 454,
+            "right": 693,
+            "top": 53,
+            "bottom": 343,
+            "width": 240,
+            "height": 291,
+            "pixels": 45057
+          },
+          {
+            "left": 761,
+            "right": 1001,
+            "top": 53,
+            "bottom": 343,
+            "width": 241,
+            "height": 291,
+            "pixels": 44903
+          },
+          {
+            "left": 1069,
+            "right": 1310,
+            "top": 53,
+            "bottom": 343,
+            "width": 242,
+            "height": 291,
+            "pixels": 45072
+          },
+          {
+            "left": 455,
+            "right": 696,
+            "top": 387,
+            "bottom": 676,
+            "width": 242,
+            "height": 290,
+            "pixels": 45051
+          },
+          {
+            "left": 1071,
+            "right": 1313,
+            "top": 387,
+            "bottom": 676,
+            "width": 243,
+            "height": 290,
+            "pixels": 45255
+          },
+          {
+            "left": 763,
+            "right": 1005,
+            "top": 388,
+            "bottom": 676,
+            "width": 243,
+            "height": 289,
+            "pixels": 44884
+          },
+          {
+            "left": 142,
+            "right": 386,
+            "top": 389,
+            "bottom": 676,
+            "width": 245,
+            "height": 288,
+            "pixels": 45236
+          },
+          {
+            "left": 454,
+            "right": 696,
+            "top": 720,
+            "bottom": 1008,
+            "width": 243,
+            "height": 289,
+            "pixels": 45088
+          },
+          {
+            "left": 761,
+            "right": 1002,
+            "top": 720,
+            "bottom": 1008,
+            "width": 242,
+            "height": 289,
+            "pixels": 44912
+          },
+          {
+            "left": 1069,
+            "right": 1312,
+            "top": 720,
+            "bottom": 1008,
+            "width": 244,
+            "height": 289,
+            "pixels": 45124
+          },
+          {
+            "left": 144,
+            "right": 386,
+            "top": 721,
+            "bottom": 1008,
+            "width": 243,
+            "height": 288,
+            "pixels": 45241
+          }
+        ],
+        "columnBounds": [
+          0,
+          420,
+          729,
+          1037,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          365,
+          698,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 52,
+              "length": 53
+            },
+            {
+              "start": 344,
+              "end": 386,
+              "length": 43
+            },
+            {
+              "start": 677,
+              "end": 719,
+              "length": 43
+            },
+            {
+              "start": 1009,
+              "end": 1085,
+              "length": 77
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 141,
+              "length": 142
+            },
+            {
+              "start": 387,
+              "end": 453,
+              "length": 67
+            },
+            {
+              "start": 697,
+              "end": 760,
+              "length": 64
+            },
+            {
+              "start": 1006,
+              "end": 1068,
+              "length": 63
+            },
+            {
+              "start": 1314,
+              "end": 1447,
+              "length": 134
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.08,
+            "right": 0.92,
+            "top": 0,
+            "bottom": 0.6
+          },
+          "head": {
+            "left": 161,
+            "top": 53,
+            "right": 366,
+            "bottom": 226,
+            "width": 206,
+            "height": 174,
+            "pixels": 25503,
+            "centroidX": 264.098459004823,
+            "centroidY": 151.7329333803866
+          },
+          "shoeBand": {
+            "left": 240,
+            "top": 333,
+            "right": 283,
+            "bottom": 342,
+            "width": 44,
+            "height": 10,
+            "pixels": 388,
+            "centroidX": 261.2757731958763,
+            "centroidY": 337.3453608247423
+          },
+          "footBaseline": 342,
+          "visible": {
+            "left": 142,
+            "top": 53,
+            "right": 385,
+            "bottom": 342,
+            "width": 244,
+            "height": 290,
+            "pixels": 45672,
+            "centroidX": 264.11002364687334,
+            "centroidY": 204.25440094587492
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 420,
+              "height": 365
+            },
+            "visibleBounds": {
+              "left": 142,
+              "top": 53,
+              "right": 385,
+              "bottom": 342,
+              "width": 244,
+              "height": 290,
+              "pixels": 45672,
+              "centroidX": 264.11002364687334,
+              "centroidY": 204.25440094587492
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 420,
+              "top": 0,
+              "width": 309,
+              "height": 365
+            },
+            "visibleBounds": {
+              "left": 454,
+              "top": 53,
+              "right": 693,
+              "bottom": 343,
+              "width": 240,
+              "height": 291,
+              "pixels": 45057,
+              "centroidX": 153.40002663293163,
+              "centroidY": 204.1731806378587
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 729,
+              "top": 0,
+              "width": 308,
+              "height": 365
+            },
+            "visibleBounds": {
+              "left": 761,
+              "top": 53,
+              "right": 1001,
+              "bottom": 343,
+              "width": 241,
+              "height": 291,
+              "pixels": 44903,
+              "centroidX": 152.0398191657573,
+              "centroidY": 204.70471906108725
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1037,
+              "top": 0,
+              "width": 411,
+              "height": 365
+            },
+            "visibleBounds": {
+              "left": 1069,
+              "top": 53,
+              "right": 1310,
+              "bottom": 343,
+              "width": 242,
+              "height": 291,
+              "pixels": 45072,
+              "centroidX": 152.29457312744054,
+              "centroidY": 204.6758075967341
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 365,
+              "width": 420,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 142,
+              "top": 389,
+              "right": 386,
+              "bottom": 676,
+              "width": 245,
+              "height": 288,
+              "pixels": 45236,
+              "centroidX": 263.8677380847113,
+              "centroidY": 174.52502431691573
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 420,
+              "top": 365,
+              "width": 309,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 455,
+              "top": 387,
+              "right": 696,
+              "bottom": 676,
+              "width": 242,
+              "height": 290,
+              "pixels": 45052,
+              "centroidX": 155.6816789487703,
+              "centroidY": 173.35208203853324
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 729,
+              "top": 365,
+              "width": 308,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 763,
+              "top": 388,
+              "right": 1005,
+              "bottom": 676,
+              "width": 243,
+              "height": 289,
+              "pixels": 44884,
+              "centroidX": 155.14296854112825,
+              "centroidY": 173.91431244987078
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1037,
+              "top": 365,
+              "width": 411,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 1071,
+              "top": 387,
+              "right": 1313,
+              "bottom": 676,
+              "width": 243,
+              "height": 290,
+              "pixels": 45255,
+              "centroidX": 154.35008286377195,
+              "centroidY": 173.35640260744668
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 698,
+              "width": 420,
+              "height": 388
+            },
+            "visibleBounds": {
+              "left": 144,
+              "top": 721,
+              "right": 386,
+              "bottom": 1008,
+              "width": 243,
+              "height": 288,
+              "pixels": 45241,
+              "centroidX": 265.0887248292478,
+              "centroidY": 172.74671205322605
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 420,
+              "top": 698,
+              "width": 309,
+              "height": 388
+            },
+            "visibleBounds": {
+              "left": 454,
+              "top": 720,
+              "right": 696,
+              "bottom": 1008,
+              "width": 243,
+              "height": 289,
+              "pixels": 45088,
+              "centroidX": 154.93940738112136,
+              "centroidY": 172.3805890702626
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 729,
+              "top": 698,
+              "width": 308,
+              "height": 388
+            },
+            "visibleBounds": {
+              "left": 761,
+              "top": 720,
+              "right": 1002,
+              "bottom": 1008,
+              "width": 242,
+              "height": 289,
+              "pixels": 44912,
+              "centroidX": 152.52698610616315,
+              "centroidY": 172.4179729248308
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1037,
+              "top": 698,
+              "width": 411,
+              "height": 388
+            },
+            "visibleBounds": {
+              "left": 1069,
+              "top": 720,
+              "right": 1312,
+              "bottom": 1008,
+              "width": 244,
+              "height": 289,
+              "pixels": 45124,
+              "centroidX": 153.33631770233134,
+              "centroidY": 172.3078406169666
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared foot-region alpha centroid and sole baseline define translation anchors.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/orange-mage/click/橙发花语-摸头.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 53,
+        "durationMs": 1060,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 625879,
+        "sha256": "7f67df461416cf88f93f8c1ddf4891c12a0e8fefe906fbae52dd5834afa208ad",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "53",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "1.060000",
+            "size": "625879"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 152944,
+          "foregroundPixels": 93439,
+          "width": 512,
+          "height": 512
+        }
+      }
+    },
+    "carry": {
+      "id": "carry",
+      "source": "raw/carry.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "fd9d118ed1c627a610251ecbd045c896ac10af28229f384a560ae9822d59e5b0",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-01.png",
+          "durationMs": 120
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-02.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-03.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-04.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-05.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-06.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-07.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-08.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-09.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-11.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/orange-mage/frames/carry/frame-12.png",
+          "durationMs": 120
+        }
+      ],
+      "output": "assets/characters/orange-mage/click/橙发花语-拖拽悬空.webm",
+      "totalDurationMs": 980,
+      "groupUniformScale": 1.5762463343108504,
+      "neutralFrameCalibration": {
+        "method": "one fixed neutral head-width ratio and reference idle head-centroid anchor",
+        "referenceHeadWidth": 195,
+        "sourceHeadWidth": 186,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.08,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.6
+        },
+        "referenceOutputHeadCentroid": {
+          "x": 255.98536299458596,
+          "y": 197.36233092016172
+        }
+      },
+      "anchor": {
+        "mode": "head",
+        "bandHeight": null,
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.08,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.6
+        },
+        "target": {
+          "x": 255.98536299458596,
+          "y": 197.36233092016172
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9419377549541341,
+          "rgbMeanAbsoluteDifferenceOverUnion": 28.44111292871983
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9480882291623233,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.64166979388178
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9164130945330529,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.373782343210735
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9231302153884333,
+          "rgbMeanAbsoluteDifferenceOverUnion": 29.63746566158958
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9285169672978704,
+          "rgbMeanAbsoluteDifferenceOverUnion": 28.66382224636092
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9772807420626863,
+          "rgbMeanAbsoluteDifferenceOverUnion": 24.84380064901988
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9836395562979142,
+          "rgbMeanAbsoluteDifferenceOverUnion": 23.198770111496568
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.971424,
+          "rgbMeanAbsoluteDifferenceOverUnion": 21.938112
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9276445638936716,
+          "rgbMeanAbsoluteDifferenceOverUnion": 28.44946387827377
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9316430550473104,
+          "rgbMeanAbsoluteDifferenceOverUnion": 29.251886315716103
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9798912583566048,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.546726467518546
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9674708479919826,
+          "rgbMeanAbsoluteDifferenceOverUnion": 30.67091897986241
+        }
+      ],
+      "auditFile": "character-source/characters/orange-mage/audits/carry.json",
+      "sourceAnalysis": {
+        "character": "orange-mage",
+        "group": "carry",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "fd9d118ed1c627a610251ecbd045c896ac10af28229f384a560ae9822d59e5b0",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 461,
+            "right": 680,
+            "top": 62,
+            "bottom": 333,
+            "width": 220,
+            "height": 272,
+            "pixels": 37456
+          },
+          {
+            "left": 767,
+            "right": 989,
+            "top": 64,
+            "bottom": 333,
+            "width": 223,
+            "height": 270,
+            "pixels": 37785
+          },
+          {
+            "left": 155,
+            "right": 374,
+            "top": 68,
+            "bottom": 338,
+            "width": 220,
+            "height": 271,
+            "pixels": 37967
+          },
+          {
+            "left": 1078,
+            "right": 1296,
+            "top": 69,
+            "bottom": 338,
+            "width": 219,
+            "height": 270,
+            "pixels": 37735
+          },
+          {
+            "left": 153,
+            "right": 372,
+            "top": 386,
+            "bottom": 654,
+            "width": 220,
+            "height": 269,
+            "pixels": 37009
+          },
+          {
+            "left": 464,
+            "right": 679,
+            "top": 388,
+            "bottom": 656,
+            "width": 216,
+            "height": 269,
+            "pixels": 37101
+          },
+          {
+            "left": 772,
+            "right": 988,
+            "top": 389,
+            "bottom": 656,
+            "width": 217,
+            "height": 268,
+            "pixels": 37238
+          },
+          {
+            "left": 1080,
+            "right": 1297,
+            "top": 393,
+            "bottom": 660,
+            "width": 218,
+            "height": 268,
+            "pixels": 37251
+          },
+          {
+            "left": 462,
+            "right": 680,
+            "top": 710,
+            "bottom": 976,
+            "width": 219,
+            "height": 267,
+            "pixels": 36861
+          },
+          {
+            "left": 772,
+            "right": 989,
+            "top": 710,
+            "bottom": 979,
+            "width": 218,
+            "height": 270,
+            "pixels": 37532
+          },
+          {
+            "left": 1078,
+            "right": 1297,
+            "top": 710,
+            "bottom": 979,
+            "width": 220,
+            "height": 270,
+            "pixels": 37770
+          },
+          {
+            "left": 157,
+            "right": 371,
+            "top": 712,
+            "bottom": 981,
+            "width": 215,
+            "height": 270,
+            "pixels": 37087
+          }
+        ],
+        "columnBounds": [
+          0,
+          418,
+          724,
+          1034,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          362,
+          685,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 61,
+              "length": 62
+            },
+            {
+              "start": 339,
+              "end": 385,
+              "length": 47
+            },
+            {
+              "start": 661,
+              "end": 709,
+              "length": 49
+            },
+            {
+              "start": 982,
+              "end": 1085,
+              "length": 104
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 152,
+              "length": 153
+            },
+            {
+              "start": 375,
+              "end": 460,
+              "length": 86
+            },
+            {
+              "start": 681,
+              "end": 766,
+              "length": 86
+            },
+            {
+              "start": 990,
+              "end": 1077,
+              "length": 88
+            },
+            {
+              "start": 1298,
+              "end": 1447,
+              "length": 150
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.08,
+            "right": 0.92,
+            "top": 0,
+            "bottom": 0.6
+          },
+          "head": {
+            "left": 172,
+            "top": 68,
+            "right": 357,
+            "bottom": 230,
+            "width": 186,
+            "height": 163,
+            "pixels": 21743,
+            "centroidX": 262.68247251989146,
+            "centroidY": 160.4486961320885
+          },
+          "shoeBand": {
+            "left": 241,
+            "top": 329,
+            "right": 283,
+            "bottom": 338,
+            "width": 43,
+            "height": 10,
+            "pixels": 355,
+            "centroidX": 261.9830985915493,
+            "centroidY": 333.0647887323944
+          },
+          "footBaseline": 338,
+          "visible": {
+            "left": 155,
+            "top": 68,
+            "right": 374,
+            "bottom": 338,
+            "width": 220,
+            "height": 271,
+            "pixels": 37967,
+            "centroidX": 263.45155003028947,
+            "centroidY": 207.54557905549555
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 418,
+              "height": 362
+            },
+            "visibleBounds": {
+              "left": 155,
+              "top": 68,
+              "right": 374,
+              "bottom": 338,
+              "width": 220,
+              "height": 271,
+              "pixels": 37967,
+              "centroidX": 263.45155003028947,
+              "centroidY": 207.54557905549555
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 418,
+              "top": 0,
+              "width": 306,
+              "height": 362
+            },
+            "visibleBounds": {
+              "left": 461,
+              "top": 62,
+              "right": 680,
+              "bottom": 333,
+              "width": 220,
+              "height": 272,
+              "pixels": 37456,
+              "centroidX": 152.43939555745408,
+              "centroidY": 200.73387441264416
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 724,
+              "top": 0,
+              "width": 310,
+              "height": 362
+            },
+            "visibleBounds": {
+              "left": 767,
+              "top": 64,
+              "right": 989,
+              "bottom": 333,
+              "width": 223,
+              "height": 270,
+              "pixels": 37785,
+              "centroidX": 154.33256583300252,
+              "centroidY": 201.56485377795423
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1034,
+              "top": 0,
+              "width": 414,
+              "height": 362
+            },
+            "visibleBounds": {
+              "left": 1078,
+              "top": 69,
+              "right": 1296,
+              "bottom": 338,
+              "width": 219,
+              "height": 270,
+              "pixels": 37735,
+              "centroidX": 152.3160461110375,
+              "centroidY": 207.92818338412613
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 362,
+              "width": 418,
+              "height": 323
+            },
+            "visibleBounds": {
+              "left": 153,
+              "top": 386,
+              "right": 372,
+              "bottom": 654,
+              "width": 220,
+              "height": 269,
+              "pixels": 37009,
+              "centroidX": 262.65775892350507,
+              "centroidY": 161.87427382528574
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 418,
+              "top": 362,
+              "width": 306,
+              "height": 323
+            },
+            "visibleBounds": {
+              "left": 464,
+              "top": 388,
+              "right": 679,
+              "bottom": 656,
+              "width": 216,
+              "height": 269,
+              "pixels": 37101,
+              "centroidX": 152.9854181827983,
+              "centroidY": 164.4654861054958
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 724,
+              "top": 362,
+              "width": 310,
+              "height": 323
+            },
+            "visibleBounds": {
+              "left": 772,
+              "top": 389,
+              "right": 988,
+              "bottom": 656,
+              "width": 217,
+              "height": 268,
+              "pixels": 37238,
+              "centroidX": 155.45088350609592,
+              "centroidY": 164.887534239218
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1034,
+              "top": 362,
+              "width": 414,
+              "height": 323
+            },
+            "visibleBounds": {
+              "left": 1080,
+              "top": 393,
+              "right": 1297,
+              "bottom": 660,
+              "width": 218,
+              "height": 268,
+              "pixels": 37251,
+              "centroidX": 153.29462296314193,
+              "centroidY": 168.86188290247242
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 685,
+              "width": 418,
+              "height": 401
+            },
+            "visibleBounds": {
+              "left": 157,
+              "top": 712,
+              "right": 371,
+              "bottom": 981,
+              "width": 215,
+              "height": 270,
+              "pixels": 37087,
+              "centroidX": 263.0124032679915,
+              "centroidY": 165.8469274948095
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 418,
+              "top": 685,
+              "width": 306,
+              "height": 401
+            },
+            "visibleBounds": {
+              "left": 462,
+              "top": 710,
+              "right": 680,
+              "bottom": 976,
+              "width": 219,
+              "height": 267,
+              "pixels": 36861,
+              "centroidX": 153.09766419793277,
+              "centroidY": 161.9456335964841
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 724,
+              "top": 685,
+              "width": 310,
+              "height": 401
+            },
+            "visibleBounds": {
+              "left": 772,
+              "top": 710,
+              "right": 989,
+              "bottom": 979,
+              "width": 218,
+              "height": 270,
+              "pixels": 37532,
+              "centroidX": 155.84469252904188,
+              "centroidY": 163.88074176702548
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1034,
+              "top": 685,
+              "width": 414,
+              "height": 401
+            },
+            "visibleBounds": {
+              "left": 1078,
+              "top": 710,
+              "right": 1297,
+              "bottom": 979,
+              "width": 220,
+              "height": 270,
+              "pixels": 37770,
+              "centroidX": 153.35483187715118,
+              "centroidY": 164.1734445326979
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared head-region alpha centroid stays fixed; feet can move naturally while suspended.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/orange-mage/click/橙发花语-拖拽悬空.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 49,
+        "durationMs": 980,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 661434,
+        "sha256": "afdbab3f42058eb36535da43fea8a4601160e6d26565e51cb39db3d28c86803e",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "49",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "0.980000",
+            "size": "661434"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 132250,
+          "foregroundPixels": 94565,
+          "width": 512,
+          "height": 512
+        }
+      }
+    }
+  },
+  "reference": {
+    "file": "character-source/characters/orange-mage/reference/2-50629.jpg",
+    "originalFilename": "50629.jpg",
+    "providedByUser": true,
+    "sha256": "699c81b3fe00a10998fc7d9f22585f6334626163d0a0b8773f0e0b8865d9e48d",
+    "use": "Appearance reference only; character display name is an appearance nickname."
+  }
+}

@@ -1,0 +1,75 @@
+Mode: built-in image_gen, transparent_background=true for all outputs.
+Reference: user supplied 50635.jpg; subsequent calls also used accepted idle sheet as a style reference.
+Production images are copied into this workspace. Cropped first idle output is discarded, not used in the release.
+No live API key was needed for built-in image generation.
+
+=== maid_v2_idle_prompt ===
+Use case: stylized-concept, identity-preserving game animation.
+Asset: a precisely registered 12-frame IDLE AND BLINK animation sheet for the blue-haired whale maid in reference image 1, for an interactive desktop pet. Reference image 1 is definitive character identity and costume, not an edit target.
+Create ONE sheet, EXACTLY 4 columns x 3 rows, read left-to-right then top-to-bottom. Transparent actual alpha background, no labels, grids, text or shadows. Suggested canvas 2048x1536, square 512x512 cells.
+Every cell contains the SAME full-body character viewed from the front, fixed camera and fixed anatomy scale, feet at the same baseline. Keep generous margins. Character about 410px tall, centered x=256, soles y=470 within every cell. Never independently resize one pose to fill the cell. Each frame is a small consecutive change, NOT unrelated expressions. First and last frames match for a seamless loop.
+Exact identity: original chibi proportions; very large head; long dark blue hair gradually lighter at ends; one curved ahoge; big blue eyes; white frilled maid headband; small turquoise bows with white wing ornaments at ears; dark navy long sleeved maid dress, white lace/frills, WHITE apron with a clear BLUE WHALE emblem, dark shoes and white socks, small blue whale-tail ornament on her right. Preserve line weight and flat cel-shaded style from original. Do not change outfit, head size, hair length or whale emblem between frames. Modest fully dressed character.
+Frame progression across 12 cells:
+1 neutral relaxed, eyes open.
+2 tiny inhale begins, shoulders barely rise, eyes open.
+3 inhale half-way, hair tips follow by 1-2 pixels.
+4 inhale peak, eyes open.
+5 exhale begins, eyes open.
+6 shoulders settle, upper eyelids begin lowering (eyes 75% open).
+7 eyes half open.
+8 eyes gently fully closed, same face position.
+9 eyes half open again.
+10 eyes fully open.
+11 relaxed tiny exhale, hair returns.
+12 same neutral posture as frame 1.
+The breath is extremely subtle and the blink is anatomically coherent, with no mouth changes, no pose jumps, no character rotation. Draw intermediate eyelids and hair positions, not duplicated static pictures. Exactly two hands and two feet, complete head and hair in every cell. No overlap between cells. No blue/white background speckles, only clean transparent outside edges.
+
+=== maid_v2_idle_repair_prompt ===
+Edit target: image 1, the blue-haired whale maid 12-frame idle/blink sprite sheet. Supporting identity reference: image 2, original character design.
+Change ONLY sprite-sheet spacing and restore the tiny cropped shoe soles at the bottom row. Keep all 12 drawings, poses, faces, order and costume details unchanged.
+Return a transparent-background sprite sheet of exactly 4 columns and 3 rows. Every character must be substantially SMALLER within its cell: about 65% of the cell height. Add VERY WIDE transparent horizontal gutters between rows and generous transparent margins on ALL FOUR SIDES, especially a broad transparent strip BELOW THE LOWEST SHOES. The last row must have complete feet, shoes and visible transparent padding below every shoe.
+Uniform character scale across all twelve frames. Every full-body figure must be separated from all others by broad transparent gaps. Do not crop hair, headbands, whale tails, hands or shoe soles. No checkerboard, no colored background, no grid lines, no labels.
+Preserve the original dark blue gradient hair, white frilly maid headband with blue bows and white wing ornaments, blue eyes and the blue whale emblem on the white apron. Do not add new motions, effects or accessories. Actual clean alpha transparency outside each character.
+
+=== maid_v2_pat_prompt ===
+Use case: stylized-concept, identity-preserving consecutive character animation.
+Asset: ONE production sprite sheet for a gentle head-pat response, 12 consecutive frames.
+Input image 1 is the definitive blue-haired whale-maid character design. Input image 2 is the accepted IDLE drawing style and scale, use it as a style match, not as a layout to crop.
+Output EXACTLY 4 columns and 3 rows, 12 full-body figures. Very wide transparent gutters between rows/columns and generous transparent outer border on ALL FOUR SIDES. Each character occupies only 65% of its cell height so every hair tip and complete shoe sole is inside the canvas, with visible transparent padding underneath the last row.
+Actual clean alpha transparency, no background, checkerboard, labels, grids, shadows or separate hands.
+Preserve identical anatomy and costume scale throughout the animation; no resizing individual figures by pose height. Camera fixed front view, planted feet with stable baseline and body center. Same blue-gradient long hair and whale tail, blue eyes, ahoge, white frilled maid headband, turquoise bows and white wings, navy maid dress and white apron with BLUE WHALE emblem. Match reference chibi proportions and line work precisely. Modest fully dressed character.
+The 12 cells progress left to right, top to bottom as one continuous head-pat reaction:
+1 same neutral front stance as idle.
+2 corners of mouth rise slightly, eyelids soften.
+3 small smile, eyes 75% open.
+4 eyes half closed with relaxed smile.
+5 eyes gently closed with happy smile.
+6 eyes closed, tiny 2-degree head tilt left, hair tips follow.
+7 tilt reaches only 4 degrees, happy closed-eye face, body remains centered.
+8 tilt returns to 2 degrees.
+9 head upright, eyes half open.
+10 eyes mostly open, small warm smile.
+11 smile fades to relaxed.
+12 exact neutral stance matching frame 1 for clean return to idle.
+Changes between adjacent frames must be tiny, connected and physically coherent. Do not add a wave, hand above head, jump, sitting pose, blush stickers or floating hearts. Keep arms relaxed beside skirt and feet planted. Important: 12 consecutive frames of the SAME model, not 12 unrelated character drawings.
+
+=== maid_v2_carry_prompt ===
+Use case: stylized-concept, identity-preserving 12-frame animation.
+Asset: ONE sprite sheet for the blue whale maid being gently picked up and held in the air, for an interactive desktop pet. Use reference 1 for exact character identity, reference 2 for accepted drawing style.
+EXACTLY 4 columns x 3 rows, 12 small full-body figures, read left to right/top to bottom. VERY WIDE transparent gutters and outer margins on all four sides. Each figure only 65% of cell height, full hair/headband/complete shoe soles with plenty of padding underneath last row. Actual clean alpha background, no text, no grid, no human hand, no lifting device, no effects.
+Keep identical head width, body proportions, hair and costume scale for all 12 figures. Fixed front camera. Her head stays at exactly the same position, body hangs below it naturally. Both knees remain mostly extended and BOTH LEGS POINT DOWNWARD, feet gently dangling. Do not sit, squat, fold thighs upward or expose beneath skirt. The dress remains closed and covers the body normally. No exaggerated skirt movement.
+Character: same long dark blue gradient hair and curved ahoge, blue eyes, white frilled maid headband, small turquoise bows with white wings, navy long sleeved dress, white lace and white apron with BLUE WHALE emblem, dark shoes with white socks and blue whale-tail ornament.
+12 sequential frames in one small coherent dangling loop:
+1 gently surprised open eyes, arms slightly away from body, legs down.
+2 shoulders raised a tiny amount, fingertips relax.
+3 left foot tilts outward slightly, right stays down.
+4 left foot returns.
+5 right foot tilts outward slightly, left stays down.
+6 right foot returns, eyes soften.
+7 eyelids half closed.
+8 soft blink fully closed.
+9 eyes half open.
+10 eyes open, calm tiny smile.
+11 calm smile fades, feet relaxed.
+12 matches frame 1 pose closely for a seamless loop.
+Very small changes between consecutive drawings, stable face/body design. No big pose jumps and no independent per-frame resizing.

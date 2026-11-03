@@ -1,0 +1,10 @@
+{
+  "type-fest@2.19.0": {
+    "license": "MIT",
+    "reason": "The npm tarball declares MIT OR CC0-1.0 but omits the license text. Preserve the MIT license from the matching upstream source tag.",
+    "source": "https://raw.githubusercontent.com/sindresorhus/type-fest/v2.19.0/license-mit",
+    "file": "type-fest-v2.19.0-license-mit.txt",
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+    "retrievedDate": "2026-10-17"
+  }
+}

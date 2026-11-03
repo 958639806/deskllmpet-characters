@@ -1,0 +1,2126 @@
+{
+  "schemaVersion": 2,
+  "character": {
+    "id": "blonde-reaper",
+    "name": "金发战斧",
+    "description": "Appearance nickname only; no invented canonical background."
+  },
+  "canvas": {
+    "size": 512,
+    "baseline": 480,
+    "referenceVisibleHeight": 430,
+    "alphaAnalysisThreshold": 64
+  },
+  "technicalOperations": [
+    "crop",
+    "one uniform scale per action",
+    "declared foot/head-anchor translation",
+    "alpha-preserving PNG export",
+    "optional alpha WebM encoding"
+  ],
+  "generatedIntermediatePoses": false,
+  "crossfadeFrames": false,
+  "groups": {
+    "idle": {
+      "id": "idle",
+      "source": "raw/idle.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "86ebc4c8668ff2d6b6b1453586d4b927d9bf52a36b01d732ef30be2951810aba",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-01.png",
+          "durationMs": 1000
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-02.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-03.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-04.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-05.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-06.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-07.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-08.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-09.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-11.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/idle/frame-12.png",
+          "durationMs": 1000
+        }
+      ],
+      "output": "assets/characters/blonde-reaper/idle/金发战斧-待机.webm",
+      "totalDurationMs": 2820,
+      "groupUniformScale": 1.6165413533834587,
+      "neutralFrameCalibration": {
+        "method": "one fixed scale from inspected neutral first-frame height",
+        "neutralHeight": 266,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.28,
+          "right": 0.95,
+          "top": 0,
+          "bottom": 0.55
+        }
+      },
+      "anchor": {
+        "mode": "feet",
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.32,
+          "right": 0.78,
+          "top": 0.74,
+          "bottom": 1
+        },
+        "target": {
+          "x": 256,
+          "y": 480
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.969466977346779,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.77792817617238
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9607646166774527,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.56505906557583
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9443041606886657,
+          "rgbMeanAbsoluteDifferenceOverUnion": 27.705149051490515
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9488469601677149,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.58139889460644
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9645915962522273,
+          "rgbMeanAbsoluteDifferenceOverUnion": 19.825238067866106
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9523854943629462,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.212379898641128
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9668377645769652,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.96597586686404
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.937758747802416,
+          "rgbMeanAbsoluteDifferenceOverUnion": 29.247874881062653
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.973004356922132,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.636155416082865
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9776727713672541,
+          "rgbMeanAbsoluteDifferenceOverUnion": 15.752132474889887
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9709033462587965,
+          "rgbMeanAbsoluteDifferenceOverUnion": 17.030124307849427
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9456827547008951,
+          "rgbMeanAbsoluteDifferenceOverUnion": 24.313563523263706
+        }
+      ],
+      "auditFile": "character-source/characters/blonde-reaper/audits/idle.json",
+      "sourceAnalysis": {
+        "character": "blonde-reaper",
+        "group": "idle",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "86ebc4c8668ff2d6b6b1453586d4b927d9bf52a36b01d732ef30be2951810aba",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 1122,
+            "right": 1350,
+            "top": 62,
+            "bottom": 325,
+            "width": 229,
+            "height": 264,
+            "pixels": 38811
+          },
+          {
+            "left": 787,
+            "right": 1015,
+            "top": 62,
+            "bottom": 326,
+            "width": 229,
+            "height": 265,
+            "pixels": 38899
+          },
+          {
+            "left": 117,
+            "right": 348,
+            "top": 62,
+            "bottom": 327,
+            "width": 232,
+            "height": 266,
+            "pixels": 39050
+          },
+          {
+            "left": 451,
+            "right": 681,
+            "top": 62,
+            "bottom": 327,
+            "width": 231,
+            "height": 266,
+            "pixels": 38753
+          },
+          {
+            "left": 118,
+            "right": 350,
+            "top": 377,
+            "bottom": 642,
+            "width": 233,
+            "height": 266,
+            "pixels": 39282
+          },
+          {
+            "left": 452,
+            "right": 683,
+            "top": 377,
+            "bottom": 643,
+            "width": 232,
+            "height": 267,
+            "pixels": 39011
+          },
+          {
+            "left": 787,
+            "right": 1018,
+            "top": 378,
+            "bottom": 643,
+            "width": 232,
+            "height": 266,
+            "pixels": 39110
+          },
+          {
+            "left": 1121,
+            "right": 1352,
+            "top": 378,
+            "bottom": 643,
+            "width": 232,
+            "height": 266,
+            "pixels": 39025
+          },
+          {
+            "left": 117,
+            "right": 350,
+            "top": 693,
+            "bottom": 957,
+            "width": 234,
+            "height": 265,
+            "pixels": 39317
+          },
+          {
+            "left": 451,
+            "right": 683,
+            "top": 693,
+            "bottom": 957,
+            "width": 233,
+            "height": 265,
+            "pixels": 39299
+          },
+          {
+            "left": 787,
+            "right": 1018,
+            "top": 693,
+            "bottom": 957,
+            "width": 232,
+            "height": 265,
+            "pixels": 39313
+          },
+          {
+            "left": 1121,
+            "right": 1353,
+            "top": 693,
+            "bottom": 957,
+            "width": 233,
+            "height": 265,
+            "pixels": 39429
+          }
+        ],
+        "columnBounds": [
+          0,
+          400,
+          735,
+          1070,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          352,
+          668,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 61,
+              "length": 62
+            },
+            {
+              "start": 328,
+              "end": 376,
+              "length": 49
+            },
+            {
+              "start": 644,
+              "end": 692,
+              "length": 49
+            },
+            {
+              "start": 958,
+              "end": 1085,
+              "length": 128
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 116,
+              "length": 117
+            },
+            {
+              "start": 351,
+              "end": 450,
+              "length": 100
+            },
+            {
+              "start": 684,
+              "end": 786,
+              "length": 103
+            },
+            {
+              "start": 1019,
+              "end": 1120,
+              "length": 102
+            },
+            {
+              "start": 1354,
+              "end": 1447,
+              "length": 94
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.28,
+            "right": 0.95,
+            "top": 0,
+            "bottom": 0.55
+          },
+          "head": {
+            "left": 181,
+            "top": 62,
+            "right": 337,
+            "bottom": 208,
+            "width": 157,
+            "height": 147,
+            "pixels": 14931,
+            "centroidX": 243.75741745361998,
+            "centroidY": 151.74958140780925
+          },
+          "shoeBand": {
+            "left": 216,
+            "top": 318,
+            "right": 250,
+            "bottom": 327,
+            "width": 35,
+            "height": 10,
+            "pixels": 297,
+            "centroidX": 233.11447811447812,
+            "centroidY": 322.09090909090907
+          },
+          "footBaseline": 327,
+          "visible": {
+            "left": 117,
+            "top": 62,
+            "right": 348,
+            "bottom": 327,
+            "width": 232,
+            "height": 266,
+            "pixels": 39052,
+            "centroidX": 228.5699836115948,
+            "centroidY": 204.2181962511523
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 400,
+              "height": 352
+            },
+            "visibleBounds": {
+              "left": 117,
+              "top": 62,
+              "right": 348,
+              "bottom": 327,
+              "width": 232,
+              "height": 266,
+              "pixels": 39052,
+              "centroidX": 228.5699836115948,
+              "centroidY": 204.2181962511523
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 400,
+              "top": 0,
+              "width": 335,
+              "height": 352
+            },
+            "visibleBounds": {
+              "left": 451,
+              "top": 62,
+              "right": 681,
+              "bottom": 327,
+              "width": 231,
+              "height": 266,
+              "pixels": 38753,
+              "centroidX": 162.44915232369107,
+              "centroidY": 203.8392382525224
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 735,
+              "top": 0,
+              "width": 335,
+              "height": 352
+            },
+            "visibleBounds": {
+              "left": 787,
+              "top": 62,
+              "right": 1015,
+              "bottom": 326,
+              "width": 229,
+              "height": 265,
+              "pixels": 38900,
+              "centroidX": 162.14347043701798,
+              "centroidY": 203.1489203084833
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1070,
+              "top": 0,
+              "width": 378,
+              "height": 352
+            },
+            "visibleBounds": {
+              "left": 1122,
+              "top": 62,
+              "right": 1350,
+              "bottom": 325,
+              "width": 229,
+              "height": 264,
+              "pixels": 38812,
+              "centroidX": 162.29336287746057,
+              "centroidY": 201.2459806245491
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 352,
+              "width": 400,
+              "height": 316
+            },
+            "visibleBounds": {
+              "left": 118,
+              "top": 377,
+              "right": 350,
+              "bottom": 642,
+              "width": 233,
+              "height": 266,
+              "pixels": 39283,
+              "centroidX": 229.83555227452078,
+              "centroidY": 166.0856350075096
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 400,
+              "top": 352,
+              "width": 335,
+              "height": 316
+            },
+            "visibleBounds": {
+              "left": 452,
+              "top": 377,
+              "right": 683,
+              "bottom": 643,
+              "width": 232,
+              "height": 267,
+              "pixels": 39011,
+              "centroidX": 163.2815616108277,
+              "centroidY": 167.04701238112327
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 735,
+              "top": 352,
+              "width": 335,
+              "height": 316
+            },
+            "visibleBounds": {
+              "left": 787,
+              "top": 378,
+              "right": 1018,
+              "bottom": 643,
+              "width": 232,
+              "height": 266,
+              "pixels": 39110,
+              "centroidX": 162.9187675786244,
+              "centroidY": 167.63702377908464
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1070,
+              "top": 352,
+              "width": 378,
+              "height": 316
+            },
+            "visibleBounds": {
+              "left": 1121,
+              "top": 378,
+              "right": 1352,
+              "bottom": 643,
+              "width": 232,
+              "height": 266,
+              "pixels": 39025,
+              "centroidX": 162.5026265214606,
+              "centroidY": 167.88881486226776
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 668,
+              "width": 400,
+              "height": 418
+            },
+            "visibleBounds": {
+              "left": 117,
+              "top": 693,
+              "right": 350,
+              "bottom": 957,
+              "width": 234,
+              "height": 265,
+              "pixels": 39317,
+              "centroidX": 229.52623547066153,
+              "centroidY": 167.84001831268915
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 400,
+              "top": 668,
+              "width": 335,
+              "height": 418
+            },
+            "visibleBounds": {
+              "left": 451,
+              "top": 693,
+              "right": 683,
+              "bottom": 957,
+              "width": 233,
+              "height": 265,
+              "pixels": 39300,
+              "centroidX": 163.8895165394402,
+              "centroidY": 167.38361323155218
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 735,
+              "top": 668,
+              "width": 335,
+              "height": 418
+            },
+            "visibleBounds": {
+              "left": 787,
+              "top": 693,
+              "right": 1018,
+              "bottom": 957,
+              "width": 232,
+              "height": 265,
+              "pixels": 39314,
+              "centroidX": 163.66724322124435,
+              "centroidY": 167.59357989520274
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1070,
+              "top": 668,
+              "width": 378,
+              "height": 418
+            },
+            "visibleBounds": {
+              "left": 1121,
+              "top": 693,
+              "right": 1353,
+              "bottom": 957,
+              "width": 233,
+              "height": 265,
+              "pixels": 39430,
+              "centroidX": 163.52386507735227,
+              "centroidY": 167.6330459041339
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared foot-region alpha centroid and sole baseline define translation anchors.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/blonde-reaper/idle/金发战斧-待机.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 141,
+        "durationMs": 2820,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 776203,
+        "sha256": "cb428acf8751922ce2720b0a24f1bd0671dd2bd76e4418cee273663b1e11a08c",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "141",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "2.820000",
+            "size": "776203"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 129347,
+          "foregroundPixels": 102272,
+          "width": 512,
+          "height": 512
+        }
+      }
+    },
+    "click": {
+      "id": "click",
+      "source": "raw/click.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "571936080b1cff810c87f0a350f4a2b863ae067d22571c55b98f0aff79f6cd1a",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-01.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-02.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-03.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-04.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-05.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-06.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-07.png",
+          "durationMs": 120
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-08.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-09.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-11.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/click/frame-12.png",
+          "durationMs": 80
+        }
+      ],
+      "output": "assets/characters/blonde-reaper/click/金发战斧-摸头.webm",
+      "totalDurationMs": 1060,
+      "groupUniformScale": 1.6149314180069543,
+      "neutralFrameCalibration": {
+        "method": "fixed neutral head/shoe-width weighted geometric mean; head favored because foot spread differs",
+        "headWeight": 0.8,
+        "referenceHeadWidth": 157,
+        "sourceHeadWidth": 153,
+        "referenceShoeWidth": 35,
+        "sourceShoeWidth": 39,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.28,
+          "right": 0.95,
+          "top": 0,
+          "bottom": 0.55
+        },
+        "headScaleRatio": 1.026143790849673,
+        "shoeScaleRatio": 0.8974358974358975
+      },
+      "anchor": {
+        "mode": "feet",
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.32,
+          "right": 0.78,
+          "top": 0.74,
+          "bottom": 1
+        },
+        "target": {
+          "x": 256,
+          "y": 480
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9849526089222632,
+          "rgbMeanAbsoluteDifferenceOverUnion": 14.458503046799091
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9799418940239351,
+          "rgbMeanAbsoluteDifferenceOverUnion": 15.789859673426458
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9856827024261207,
+          "rgbMeanAbsoluteDifferenceOverUnion": 12.813965238155003
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9617258641239571,
+          "rgbMeanAbsoluteDifferenceOverUnion": 26.566340882002383
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9639585651913364,
+          "rgbMeanAbsoluteDifferenceOverUnion": 23.035033149749356
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9586370089919546,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.846398485565548
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9701054317362872,
+          "rgbMeanAbsoluteDifferenceOverUnion": 20.100439775536532
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9432202589057923,
+          "rgbMeanAbsoluteDifferenceOverUnion": 29.263545308513653
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9882797365362262,
+          "rgbMeanAbsoluteDifferenceOverUnion": 12.453293297171639
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9773487103891474,
+          "rgbMeanAbsoluteDifferenceOverUnion": 17.21876977130323
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9888885659759559,
+          "rgbMeanAbsoluteDifferenceOverUnion": 12.168486281044043
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9785396165796131,
+          "rgbMeanAbsoluteDifferenceOverUnion": 17.589549726334422
+        }
+      ],
+      "auditFile": "character-source/characters/blonde-reaper/audits/click.json",
+      "sourceAnalysis": {
+        "character": "blonde-reaper",
+        "group": "click",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "571936080b1cff810c87f0a350f4a2b863ae067d22571c55b98f0aff79f6cd1a",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 117,
+            "right": 343,
+            "top": 61,
+            "bottom": 326,
+            "width": 227,
+            "height": 266,
+            "pixels": 39501
+          },
+          {
+            "left": 449,
+            "right": 675,
+            "top": 61,
+            "bottom": 326,
+            "width": 227,
+            "height": 266,
+            "pixels": 39432
+          },
+          {
+            "left": 1113,
+            "right": 1338,
+            "top": 61,
+            "bottom": 326,
+            "width": 226,
+            "height": 266,
+            "pixels": 39367
+          },
+          {
+            "left": 781,
+            "right": 1007,
+            "top": 62,
+            "bottom": 326,
+            "width": 227,
+            "height": 265,
+            "pixels": 39451
+          },
+          {
+            "left": 117,
+            "right": 343,
+            "top": 378,
+            "bottom": 644,
+            "width": 227,
+            "height": 267,
+            "pixels": 39526
+          },
+          {
+            "left": 783,
+            "right": 1009,
+            "top": 378,
+            "bottom": 644,
+            "width": 227,
+            "height": 267,
+            "pixels": 39710
+          },
+          {
+            "left": 450,
+            "right": 675,
+            "top": 379,
+            "bottom": 644,
+            "width": 226,
+            "height": 266,
+            "pixels": 39660
+          },
+          {
+            "left": 1116,
+            "right": 1340,
+            "top": 379,
+            "bottom": 644,
+            "width": 225,
+            "height": 266,
+            "pixels": 39563
+          },
+          {
+            "left": 1113,
+            "right": 1338,
+            "top": 694,
+            "bottom": 960,
+            "width": 226,
+            "height": 267,
+            "pixels": 39385
+          },
+          {
+            "left": 118,
+            "right": 343,
+            "top": 695,
+            "bottom": 960,
+            "width": 226,
+            "height": 266,
+            "pixels": 39352
+          },
+          {
+            "left": 449,
+            "right": 675,
+            "top": 695,
+            "bottom": 960,
+            "width": 227,
+            "height": 266,
+            "pixels": 39422
+          },
+          {
+            "left": 781,
+            "right": 1007,
+            "top": 695,
+            "bottom": 960,
+            "width": 227,
+            "height": 266,
+            "pixels": 39349
+          }
+        ],
+        "columnBounds": [
+          0,
+          396,
+          728,
+          1061,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          352,
+          669,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 60,
+              "length": 61
+            },
+            {
+              "start": 327,
+              "end": 377,
+              "length": 51
+            },
+            {
+              "start": 645,
+              "end": 693,
+              "length": 49
+            },
+            {
+              "start": 961,
+              "end": 1085,
+              "length": 125
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 116,
+              "length": 117
+            },
+            {
+              "start": 344,
+              "end": 448,
+              "length": 105
+            },
+            {
+              "start": 676,
+              "end": 780,
+              "length": 105
+            },
+            {
+              "start": 1010,
+              "end": 1112,
+              "length": 103
+            },
+            {
+              "start": 1341,
+              "end": 1447,
+              "length": 107
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.28,
+            "right": 0.95,
+            "top": 0,
+            "bottom": 0.55
+          },
+          "head": {
+            "left": 180,
+            "top": 61,
+            "right": 332,
+            "bottom": 207,
+            "width": 153,
+            "height": 147,
+            "pixels": 15254,
+            "centroidX": 242.64933787858922,
+            "centroidY": 150.00019666972597
+          },
+          "shoeBand": {
+            "left": 214,
+            "top": 317,
+            "right": 252,
+            "bottom": 326,
+            "width": 39,
+            "height": 10,
+            "pixels": 356,
+            "centroidX": 232.64044943820224,
+            "centroidY": 321.1741573033708
+          },
+          "footBaseline": 326,
+          "visible": {
+            "left": 117,
+            "top": 61,
+            "right": 343,
+            "bottom": 326,
+            "width": 227,
+            "height": 266,
+            "pixels": 39501,
+            "centroidX": 227.33492822966508,
+            "centroidY": 203.487911698438
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 396,
+              "height": 352
+            },
+            "visibleBounds": {
+              "left": 117,
+              "top": 61,
+              "right": 343,
+              "bottom": 326,
+              "width": 227,
+              "height": 266,
+              "pixels": 39501,
+              "centroidX": 227.33492822966508,
+              "centroidY": 203.487911698438
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 396,
+              "top": 0,
+              "width": 332,
+              "height": 352
+            },
+            "visibleBounds": {
+              "left": 449,
+              "top": 61,
+              "right": 675,
+              "bottom": 326,
+              "width": 227,
+              "height": 266,
+              "pixels": 39432,
+              "centroidX": 162.8776374518158,
+              "centroidY": 203.19808784743356
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 728,
+              "top": 0,
+              "width": 333,
+              "height": 352
+            },
+            "visibleBounds": {
+              "left": 781,
+              "top": 62,
+              "right": 1007,
+              "bottom": 326,
+              "width": 227,
+              "height": 265,
+              "pixels": 39451,
+              "centroidX": 162.88588375453094,
+              "centroidY": 203.32681047375226
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1061,
+              "top": 0,
+              "width": 387,
+              "height": 352
+            },
+            "visibleBounds": {
+              "left": 1113,
+              "top": 61,
+              "right": 1338,
+              "bottom": 326,
+              "width": 226,
+              "height": 266,
+              "pixels": 39367,
+              "centroidX": 161.68841923438413,
+              "centroidY": 203.40053852211244
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 352,
+              "width": 396,
+              "height": 317
+            },
+            "visibleBounds": {
+              "left": 117,
+              "top": 378,
+              "right": 343,
+              "bottom": 644,
+              "width": 227,
+              "height": 267,
+              "pixels": 39526,
+              "centroidX": 227.3942215250721,
+              "centroidY": 167.90669432778424
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 396,
+              "top": 352,
+              "width": 332,
+              "height": 317
+            },
+            "visibleBounds": {
+              "left": 450,
+              "top": 379,
+              "right": 675,
+              "bottom": 644,
+              "width": 226,
+              "height": 266,
+              "pixels": 39661,
+              "centroidX": 163.4957767075969,
+              "centroidY": 168.02014573510502
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 728,
+              "top": 352,
+              "width": 333,
+              "height": 317
+            },
+            "visibleBounds": {
+              "left": 783,
+              "top": 378,
+              "right": 1009,
+              "bottom": 644,
+              "width": 227,
+              "height": 267,
+              "pixels": 39712,
+              "centroidX": 164.3192989524577,
+              "centroidY": 168.0759216357776
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1061,
+              "top": 352,
+              "width": 387,
+              "height": 317
+            },
+            "visibleBounds": {
+              "left": 1116,
+              "top": 379,
+              "right": 1340,
+              "bottom": 644,
+              "width": 225,
+              "height": 266,
+              "pixels": 39563,
+              "centroidX": 163.22366857922808,
+              "centroidY": 168.32851401562067
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 669,
+              "width": 396,
+              "height": 417
+            },
+            "visibleBounds": {
+              "left": 118,
+              "top": 695,
+              "right": 343,
+              "bottom": 960,
+              "width": 226,
+              "height": 266,
+              "pixels": 39352,
+              "centroidX": 227.27170156535882,
+              "centroidY": 167.75818255743036
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 396,
+              "top": 669,
+              "width": 332,
+              "height": 417
+            },
+            "visibleBounds": {
+              "left": 449,
+              "top": 695,
+              "right": 675,
+              "bottom": 960,
+              "width": 227,
+              "height": 266,
+              "pixels": 39422,
+              "centroidX": 162.8204302166303,
+              "centroidY": 167.66642991223176
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 728,
+              "top": 669,
+              "width": 333,
+              "height": 417
+            },
+            "visibleBounds": {
+              "left": 781,
+              "top": 695,
+              "right": 1007,
+              "bottom": 960,
+              "width": 227,
+              "height": 266,
+              "pixels": 39349,
+              "centroidX": 162.78451803095376,
+              "centroidY": 167.65554397824596
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1061,
+              "top": 669,
+              "width": 387,
+              "height": 417
+            },
+            "visibleBounds": {
+              "left": 1113,
+              "top": 694,
+              "right": 1338,
+              "bottom": 960,
+              "width": 226,
+              "height": 267,
+              "pixels": 39385,
+              "centroidX": 161.6740129490923,
+              "centroidY": 167.5742287672972
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared foot-region alpha centroid and sole baseline define translation anchors.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/blonde-reaper/click/金发战斧-摸头.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 53,
+        "durationMs": 1060,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 612871,
+        "sha256": "e89e701c4f6073e2cf5f3876050f9d1d05ffe00f853c1965c3de4e8afe6afba2",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "53",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "1.060000",
+            "size": "612871"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 137367,
+          "foregroundPixels": 102934,
+          "width": 512,
+          "height": 512
+        }
+      }
+    },
+    "carry": {
+      "id": "carry",
+      "source": "raw/carry.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "156a996d19d4c8c3ed96e47bbc83803b4cbe9c1b1e449468798fbed59374a042",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-01.png",
+          "durationMs": 120
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-02.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-03.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-04.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-05.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-06.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-07.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-08.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-09.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-11.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/blonde-reaper/frames/carry/frame-12.png",
+          "durationMs": 120
+        }
+      ],
+      "output": "assets/characters/blonde-reaper/click/金发战斧-拖拽悬空.webm",
+      "totalDurationMs": 980,
+      "groupUniformScale": 1.6373999514916322,
+      "neutralFrameCalibration": {
+        "method": "one fixed neutral head-width ratio and reference idle head-centroid anchor",
+        "referenceHeadWidth": 157,
+        "sourceHeadWidth": 155,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.28,
+          "right": 0.95,
+          "top": 0,
+          "bottom": 0.55
+        },
+        "referenceOutputHeadCentroid": {
+          "x": 273.39115821668565,
+          "y": 195.57322833452372
+        }
+      },
+      "anchor": {
+        "mode": "head",
+        "bandHeight": null,
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.28,
+          "right": 0.95,
+          "top": 0,
+          "bottom": 0.55
+        },
+        "target": {
+          "x": 273.39115821668565,
+          "y": 195.57322833452372
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9176396071053801,
+          "rgbMeanAbsoluteDifferenceOverUnion": 29.29510268263707
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9135304101025017,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.851217586688527
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9269024508729985,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.031998831556855
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9547854753850135,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.06919860337783
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9523478126389453,
+          "rgbMeanAbsoluteDifferenceOverUnion": 21.43980810248281
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9635901778154107,
+          "rgbMeanAbsoluteDifferenceOverUnion": 20.178996304839394
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9470896932833172,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.28666864940406
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9387807670291929,
+          "rgbMeanAbsoluteDifferenceOverUnion": 23.548037906251988
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9488262101715687,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.700855928308822
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9402069170510006,
+          "rgbMeanAbsoluteDifferenceOverUnion": 23.517679358474044
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9363671274961598,
+          "rgbMeanAbsoluteDifferenceOverUnion": 26.225467229902712
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9586714311717425,
+          "rgbMeanAbsoluteDifferenceOverUnion": 19.384602856787026
+        }
+      ],
+      "auditFile": "character-source/characters/blonde-reaper/audits/carry.json",
+      "sourceAnalysis": {
+        "character": "blonde-reaper",
+        "group": "carry",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "156a996d19d4c8c3ed96e47bbc83803b4cbe9c1b1e449468798fbed59374a042",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 451,
+            "right": 679,
+            "top": 65,
+            "bottom": 329,
+            "width": 229,
+            "height": 265,
+            "pixels": 37198
+          },
+          {
+            "left": 790,
+            "right": 1015,
+            "top": 66,
+            "bottom": 331,
+            "width": 226,
+            "height": 266,
+            "pixels": 37085
+          },
+          {
+            "left": 107,
+            "right": 336,
+            "top": 65,
+            "bottom": 335,
+            "width": 230,
+            "height": 271,
+            "pixels": 38295
+          },
+          {
+            "left": 1132,
+            "right": 1362,
+            "top": 66,
+            "bottom": 334,
+            "width": 231,
+            "height": 269,
+            "pixels": 38134
+          },
+          {
+            "left": 790,
+            "right": 1016,
+            "top": 370,
+            "bottom": 637,
+            "width": 227,
+            "height": 268,
+            "pixels": 37655
+          },
+          {
+            "left": 1132,
+            "right": 1362,
+            "top": 370,
+            "bottom": 637,
+            "width": 231,
+            "height": 268,
+            "pixels": 37916
+          },
+          {
+            "left": 108,
+            "right": 337,
+            "top": 370,
+            "bottom": 638,
+            "width": 230,
+            "height": 269,
+            "pixels": 37689
+          },
+          {
+            "left": 454,
+            "right": 680,
+            "top": 371,
+            "bottom": 637,
+            "width": 227,
+            "height": 267,
+            "pixels": 37535
+          },
+          {
+            "left": 107,
+            "right": 336,
+            "top": 679,
+            "bottom": 947,
+            "width": 230,
+            "height": 269,
+            "pixels": 37704
+          },
+          {
+            "left": 452,
+            "right": 680,
+            "top": 679,
+            "bottom": 947,
+            "width": 229,
+            "height": 269,
+            "pixels": 37952
+          },
+          {
+            "left": 790,
+            "right": 1015,
+            "top": 680,
+            "bottom": 947,
+            "width": 226,
+            "height": 268,
+            "pixels": 37323
+          },
+          {
+            "left": 1133,
+            "right": 1362,
+            "top": 680,
+            "bottom": 947,
+            "width": 230,
+            "height": 268,
+            "pixels": 37776
+          }
+        ],
+        "columnBounds": [
+          0,
+          394,
+          735,
+          1074,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          353,
+          659,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 64,
+              "length": 65
+            },
+            {
+              "start": 336,
+              "end": 369,
+              "length": 34
+            },
+            {
+              "start": 639,
+              "end": 678,
+              "length": 40
+            },
+            {
+              "start": 948,
+              "end": 1085,
+              "length": 138
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 106,
+              "length": 107
+            },
+            {
+              "start": 338,
+              "end": 450,
+              "length": 113
+            },
+            {
+              "start": 681,
+              "end": 789,
+              "length": 109
+            },
+            {
+              "start": 1017,
+              "end": 1131,
+              "length": 115
+            },
+            {
+              "start": 1363,
+              "end": 1447,
+              "length": 85
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.28,
+            "right": 0.95,
+            "top": 0,
+            "bottom": 0.55
+          },
+          "head": {
+            "left": 171,
+            "top": 65,
+            "right": 325,
+            "bottom": 214,
+            "width": 155,
+            "height": 150,
+            "pixels": 15156,
+            "centroidX": 233.68606492478227,
+            "centroidY": 157.4155449986804
+          },
+          "shoeBand": {
+            "left": 204,
+            "top": 326,
+            "right": 241,
+            "bottom": 335,
+            "width": 38,
+            "height": 10,
+            "pixels": 308,
+            "centroidX": 222.33766233766235,
+            "centroidY": 330.22402597402595
+          },
+          "footBaseline": 335,
+          "visible": {
+            "left": 107,
+            "top": 65,
+            "right": 336,
+            "bottom": 335,
+            "width": 230,
+            "height": 271,
+            "pixels": 38295,
+            "centroidX": 218.0032902467685,
+            "centroidY": 207.64259041650345
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 394,
+              "height": 353
+            },
+            "visibleBounds": {
+              "left": 107,
+              "top": 65,
+              "right": 336,
+              "bottom": 335,
+              "width": 230,
+              "height": 271,
+              "pixels": 38295,
+              "centroidX": 218.0032902467685,
+              "centroidY": 207.64259041650345
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 394,
+              "top": 0,
+              "width": 341,
+              "height": 353
+            },
+            "visibleBounds": {
+              "left": 451,
+              "top": 65,
+              "right": 679,
+              "bottom": 329,
+              "width": 229,
+              "height": 265,
+              "pixels": 37198,
+              "centroidX": 168.03328135921285,
+              "centroidY": 203.38512823270068
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 735,
+              "top": 0,
+              "width": 339,
+              "height": 353
+            },
+            "visibleBounds": {
+              "left": 790,
+              "top": 66,
+              "right": 1015,
+              "bottom": 331,
+              "width": 226,
+              "height": 266,
+              "pixels": 37085,
+              "centroidX": 163.10713226371848,
+              "centroidY": 205.42203047054065
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1074,
+              "top": 0,
+              "width": 374,
+              "height": 353
+            },
+            "visibleBounds": {
+              "left": 1132,
+              "top": 66,
+              "right": 1362,
+              "bottom": 334,
+              "width": 231,
+              "height": 269,
+              "pixels": 38134,
+              "centroidX": 169.73191902239472,
+              "centroidY": 207.5310484082446
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 353,
+              "width": 394,
+              "height": 306
+            },
+            "visibleBounds": {
+              "left": 108,
+              "top": 370,
+              "right": 337,
+              "bottom": 638,
+              "width": 230,
+              "height": 269,
+              "pixels": 37689,
+              "centroidX": 219.0580806070737,
+              "centroidY": 159.18236090105867
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 394,
+              "top": 353,
+              "width": 341,
+              "height": 306
+            },
+            "visibleBounds": {
+              "left": 454,
+              "top": 371,
+              "right": 680,
+              "bottom": 637,
+              "width": 227,
+              "height": 267,
+              "pixels": 37535,
+              "centroidX": 169.65120554149462,
+              "centroidY": 158.89844145464232
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 735,
+              "top": 353,
+              "width": 339,
+              "height": 306
+            },
+            "visibleBounds": {
+              "left": 790,
+              "top": 370,
+              "right": 1016,
+              "bottom": 637,
+              "width": 227,
+              "height": 268,
+              "pixels": 37656,
+              "centroidX": 164.08601550881664,
+              "centroidY": 159.23332271085619
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1074,
+              "top": 353,
+              "width": 374,
+              "height": 306
+            },
+            "visibleBounds": {
+              "left": 1132,
+              "top": 370,
+              "right": 1362,
+              "bottom": 637,
+              "width": 231,
+              "height": 268,
+              "pixels": 37916,
+              "centroidX": 169.6723283046735,
+              "centroidY": 159.78528853254562
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 659,
+              "width": 394,
+              "height": 427
+            },
+            "visibleBounds": {
+              "left": 107,
+              "top": 679,
+              "right": 336,
+              "bottom": 947,
+              "width": 230,
+              "height": 269,
+              "pixels": 37704,
+              "centroidX": 219.24803734351792,
+              "centroidY": 162.4718067048589
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 394,
+              "top": 659,
+              "width": 341,
+              "height": 427
+            },
+            "visibleBounds": {
+              "left": 452,
+              "top": 679,
+              "right": 680,
+              "bottom": 947,
+              "width": 229,
+              "height": 269,
+              "pixels": 37952,
+              "centroidX": 169.08418528667792,
+              "centroidY": 162.4831365935919
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 735,
+              "top": 659,
+              "width": 339,
+              "height": 427
+            },
+            "visibleBounds": {
+              "left": 790,
+              "top": 680,
+              "right": 1015,
+              "bottom": 947,
+              "width": 226,
+              "height": 268,
+              "pixels": 37324,
+              "centroidX": 164.91429107276818,
+              "centroidY": 162.9853981352481
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1074,
+              "top": 659,
+              "width": 374,
+              "height": 427
+            },
+            "visibleBounds": {
+              "left": 1133,
+              "top": 680,
+              "right": 1362,
+              "bottom": 947,
+              "width": 230,
+              "height": 268,
+              "pixels": 37777,
+              "centroidX": 170.00738544617096,
+              "centroidY": 162.67159912115838
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared head-region alpha centroid stays fixed; feet can move naturally while suspended.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/blonde-reaper/click/金发战斧-拖拽悬空.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 49,
+        "durationMs": 980,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 600791,
+        "sha256": "34cf74922244d9fdc713c7a573d4fd0defa71861485c6c16862e6c26f99b5e6f",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "49",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "0.980000",
+            "size": "600791"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 134016,
+          "foregroundPixels": 102978,
+          "width": 512,
+          "height": 512
+        }
+      }
+    }
+  },
+  "reference": {
+    "file": "character-source/characters/blonde-reaper/reference/1-50628.jpg",
+    "originalFilename": "50628.jpg",
+    "providedByUser": true,
+    "sha256": "66696cabc37705d19990f1f9959f9024c6c72bfb7cf2e80a2af75afd9edb62f2",
+    "use": "Appearance reference only; character display name is an appearance nickname."
+  }
+}

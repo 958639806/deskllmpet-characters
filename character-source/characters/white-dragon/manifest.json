@@ -1,0 +1,2126 @@
+{
+  "schemaVersion": 2,
+  "character": {
+    "id": "white-dragon",
+    "name": "白发龙姬",
+    "description": "Appearance nickname only; no invented canonical background."
+  },
+  "reference": {
+    "file": "character-source/characters/white-dragon/reference/4-50634.jpg",
+    "originalFilename": "50634.jpg",
+    "providedByUser": true,
+    "sha256": "5de21d8f7a60c3a1a4427c4099acd9c32fe24dc08c70b1a1251da733cb003f01",
+    "use": "Appearance reference only; character display name is an appearance nickname."
+  },
+  "canvas": {
+    "size": 512,
+    "baseline": 480,
+    "referenceVisibleHeight": 430,
+    "alphaAnalysisThreshold": 64
+  },
+  "technicalOperations": [
+    "crop",
+    "one uniform scale per action",
+    "declared foot/head-anchor translation",
+    "alpha-preserving PNG export",
+    "optional alpha WebM encoding"
+  ],
+  "generatedIntermediatePoses": false,
+  "crossfadeFrames": false,
+  "groups": {
+    "idle": {
+      "id": "idle",
+      "source": "raw/idle.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "29a1c3a5feb01ffe13dc189394b83740f95db4e5dc3f67789e15bce96cba064a",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-01.png",
+          "durationMs": 1000
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-02.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-03.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-04.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-05.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-06.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-07.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-08.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-09.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-11.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/idle/frame-12.png",
+          "durationMs": 1000
+        }
+      ],
+      "output": "assets/characters/white-dragon/idle/白发龙姬-待机.webm",
+      "totalDurationMs": 2820,
+      "groupUniformScale": 1.5140845070422535,
+      "neutralFrameCalibration": {
+        "method": "one fixed scale from inspected neutral first-frame height",
+        "neutralHeight": 284,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.12,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.62
+        }
+      },
+      "anchor": {
+        "mode": "feet",
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.38,
+          "right": 0.69,
+          "top": 0.78,
+          "bottom": 1
+        },
+        "target": {
+          "x": 256,
+          "y": 480
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9692004461820033,
+          "rgbMeanAbsoluteDifferenceOverUnion": 27.032738063006963
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9765380944116626,
+          "rgbMeanAbsoluteDifferenceOverUnion": 22.64932604419762
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9325248691372443,
+          "rgbMeanAbsoluteDifferenceOverUnion": 39.908403022529946
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.954476224488724,
+          "rgbMeanAbsoluteDifferenceOverUnion": 32.28263114957862
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9491326422678231,
+          "rgbMeanAbsoluteDifferenceOverUnion": 38.91211480149496
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9814488959464389,
+          "rgbMeanAbsoluteDifferenceOverUnion": 17.354284242827408
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9741966375824643,
+          "rgbMeanAbsoluteDifferenceOverUnion": 26.086607079520466
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9646176335641652,
+          "rgbMeanAbsoluteDifferenceOverUnion": 27.271545791141605
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9600580114948702,
+          "rgbMeanAbsoluteDifferenceOverUnion": 28.028619004136004
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9733060215892834,
+          "rgbMeanAbsoluteDifferenceOverUnion": 21.588156240516756
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9854728436252256,
+          "rgbMeanAbsoluteDifferenceOverUnion": 14.674907473244726
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9732505373775974,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.85079358186595
+        }
+      ],
+      "auditFile": "character-source/characters/white-dragon/audits/idle.json",
+      "sourceAnalysis": {
+        "character": "white-dragon",
+        "group": "idle",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "29a1c3a5feb01ffe13dc189394b83740f95db4e5dc3f67789e15bce96cba064a",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 1128,
+            "right": 1344,
+            "top": 46,
+            "bottom": 330,
+            "width": 217,
+            "height": 285,
+            "pixels": 40895
+          },
+          {
+            "left": 788,
+            "right": 1000,
+            "top": 48,
+            "bottom": 330,
+            "width": 213,
+            "height": 283,
+            "pixels": 39779
+          },
+          {
+            "left": 118,
+            "right": 330,
+            "top": 48,
+            "bottom": 331,
+            "width": 213,
+            "height": 284,
+            "pixels": 39680
+          },
+          {
+            "left": 440,
+            "right": 652,
+            "top": 48,
+            "bottom": 331,
+            "width": 213,
+            "height": 284,
+            "pixels": 39627
+          },
+          {
+            "left": 116,
+            "right": 330,
+            "top": 378,
+            "bottom": 662,
+            "width": 215,
+            "height": 285,
+            "pixels": 40099
+          },
+          {
+            "left": 788,
+            "right": 1001,
+            "top": 378,
+            "bottom": 662,
+            "width": 214,
+            "height": 285,
+            "pixels": 40276
+          },
+          {
+            "left": 442,
+            "right": 654,
+            "top": 379,
+            "bottom": 662,
+            "width": 213,
+            "height": 284,
+            "pixels": 40198
+          },
+          {
+            "left": 1129,
+            "right": 1343,
+            "top": 379,
+            "bottom": 662,
+            "width": 215,
+            "height": 284,
+            "pixels": 40548
+          },
+          {
+            "left": 117,
+            "right": 329,
+            "top": 714,
+            "bottom": 994,
+            "width": 213,
+            "height": 281,
+            "pixels": 39633
+          },
+          {
+            "left": 442,
+            "right": 655,
+            "top": 714,
+            "bottom": 994,
+            "width": 214,
+            "height": 281,
+            "pixels": 39734
+          },
+          {
+            "left": 790,
+            "right": 1001,
+            "top": 714,
+            "bottom": 994,
+            "width": 212,
+            "height": 281,
+            "pixels": 39458
+          },
+          {
+            "left": 1130,
+            "right": 1342,
+            "top": 714,
+            "bottom": 994,
+            "width": 213,
+            "height": 281,
+            "pixels": 39498
+          }
+        ],
+        "columnBounds": [
+          0,
+          385,
+          722,
+          1065,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          355,
+          688,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 45,
+              "length": 46
+            },
+            {
+              "start": 332,
+              "end": 377,
+              "length": 46
+            },
+            {
+              "start": 663,
+              "end": 713,
+              "length": 51
+            },
+            {
+              "start": 995,
+              "end": 1085,
+              "length": 91
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 115,
+              "length": 116
+            },
+            {
+              "start": 331,
+              "end": 439,
+              "length": 109
+            },
+            {
+              "start": 656,
+              "end": 787,
+              "length": 132
+            },
+            {
+              "start": 1002,
+              "end": 1127,
+              "length": 126
+            },
+            {
+              "start": 1345,
+              "end": 1447,
+              "length": 103
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.12,
+            "right": 0.92,
+            "top": 0,
+            "bottom": 0.62
+          },
+          "head": {
+            "left": 143,
+            "top": 48,
+            "right": 313,
+            "bottom": 224,
+            "width": 171,
+            "height": 177,
+            "pixels": 22495,
+            "centroidX": 227.12669482107134,
+            "centroidY": 152.14465436763726
+          },
+          "shoeBand": {
+            "left": 198,
+            "top": 322,
+            "right": 264,
+            "bottom": 331,
+            "width": 67,
+            "height": 10,
+            "pixels": 354,
+            "centroidX": 233.66949152542372,
+            "centroidY": 325.57062146892656
+          },
+          "footBaseline": 331,
+          "visible": {
+            "left": 118,
+            "top": 48,
+            "right": 330,
+            "bottom": 331,
+            "width": 213,
+            "height": 284,
+            "pixels": 39680,
+            "centroidX": 224.0944808467742,
+            "centroidY": 204.05274697580646
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 385,
+              "height": 355
+            },
+            "visibleBounds": {
+              "left": 118,
+              "top": 48,
+              "right": 330,
+              "bottom": 331,
+              "width": 213,
+              "height": 284,
+              "pixels": 39680,
+              "centroidX": 224.0944808467742,
+              "centroidY": 204.05274697580646
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 385,
+              "top": 0,
+              "width": 337,
+              "height": 355
+            },
+            "visibleBounds": {
+              "left": 440,
+              "top": 48,
+              "right": 652,
+              "bottom": 331,
+              "width": 213,
+              "height": 284,
+              "pixels": 39627,
+              "centroidX": 160.87039139980317,
+              "centroidY": 203.43493072904838
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 722,
+              "top": 0,
+              "width": 343,
+              "height": 355
+            },
+            "visibleBounds": {
+              "left": 788,
+              "top": 48,
+              "right": 1000,
+              "bottom": 330,
+              "width": 213,
+              "height": 283,
+              "pixels": 39779,
+              "centroidX": 172.06583875914427,
+              "centroidY": 203.05864903592348
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1065,
+              "top": 0,
+              "width": 383,
+              "height": 355
+            },
+            "visibleBounds": {
+              "left": 1128,
+              "top": 46,
+              "right": 1344,
+              "bottom": 330,
+              "width": 217,
+              "height": 285,
+              "pixels": 40895,
+              "centroidX": 170.7226311284998,
+              "centroidY": 201.7632473407507
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 355,
+              "width": 385,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 116,
+              "top": 378,
+              "right": 330,
+              "bottom": 662,
+              "width": 215,
+              "height": 285,
+              "pixels": 40099,
+              "centroidX": 223.38180503254446,
+              "centroidY": 178.46440060849397
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 385,
+              "top": 355,
+              "width": 337,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 442,
+              "top": 379,
+              "right": 654,
+              "bottom": 662,
+              "width": 213,
+              "height": 284,
+              "pixels": 40198,
+              "centroidX": 163.2964824120603,
+              "centroidY": 179.6218717349122
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 722,
+              "top": 355,
+              "width": 343,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 788,
+              "top": 378,
+              "right": 1001,
+              "bottom": 662,
+              "width": 214,
+              "height": 285,
+              "pixels": 40276,
+              "centroidX": 172.86267255934055,
+              "centroidY": 179.499205482173
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1065,
+              "top": 355,
+              "width": 383,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 1129,
+              "top": 379,
+              "right": 1343,
+              "bottom": 662,
+              "width": 215,
+              "height": 284,
+              "pixels": 40548,
+              "centroidX": 171.28571076255304,
+              "centroidY": 179.84004143237644
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 688,
+              "width": 385,
+              "height": 398
+            },
+            "visibleBounds": {
+              "left": 117,
+              "top": 714,
+              "right": 329,
+              "bottom": 994,
+              "width": 213,
+              "height": 281,
+              "pixels": 39633,
+              "centroidX": 223.2323064113239,
+              "centroidY": 180.03191784623925
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 385,
+              "top": 688,
+              "width": 337,
+              "height": 398
+            },
+            "visibleBounds": {
+              "left": 442,
+              "top": 714,
+              "right": 655,
+              "bottom": 994,
+              "width": 214,
+              "height": 281,
+              "pixels": 39734,
+              "centroidX": 164.51233200785222,
+              "centroidY": 179.83276287310616
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 722,
+              "top": 688,
+              "width": 343,
+              "height": 398
+            },
+            "visibleBounds": {
+              "left": 790,
+              "top": 714,
+              "right": 1001,
+              "bottom": 994,
+              "width": 212,
+              "height": 281,
+              "pixels": 39458,
+              "centroidX": 174.01824725024076,
+              "centroidY": 180.22783719397842
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1065,
+              "top": 688,
+              "width": 383,
+              "height": 398
+            },
+            "visibleBounds": {
+              "left": 1130,
+              "top": 714,
+              "right": 1342,
+              "bottom": 994,
+              "width": 213,
+              "height": 281,
+              "pixels": 39498,
+              "centroidX": 171.9135652438098,
+              "centroidY": 179.8117626208922
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared foot-region alpha centroid and sole baseline define translation anchors.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/white-dragon/idle/白发龙姬-待机.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 141,
+        "durationMs": 2820,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 654968,
+        "sha256": "4a25fc5f3e84bf9cd65d62e836dc14209c9ddcb7a9fc7c4c79905161320bfe4a",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "141",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "2.820000",
+            "size": "654968"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 146196,
+          "foregroundPixels": 91001,
+          "width": 512,
+          "height": 512
+        }
+      }
+    },
+    "click": {
+      "id": "click",
+      "source": "raw/click.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "6da469ef5c267359aaea6f5fc32c6541dd7cf1acec06dacc96ed0010ce14a943",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-01.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-02.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-03.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-04.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-05.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-06.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-07.png",
+          "durationMs": 120
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-08.png",
+          "durationMs": 100
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-09.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-11.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/click/frame-12.png",
+          "durationMs": 80
+        }
+      ],
+      "output": "assets/characters/white-dragon/click/白发龙姬-摸头.webm",
+      "totalDurationMs": 1060,
+      "groupUniformScale": 1.4748301331780593,
+      "neutralFrameCalibration": {
+        "method": "fixed neutral head/shoe-width geometric mean",
+        "headWeight": 0.5,
+        "referenceHeadWidth": 171,
+        "sourceHeadWidth": 175,
+        "referenceShoeWidth": 67,
+        "sourceShoeWidth": 69,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.12,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.62
+        },
+        "headScaleRatio": 0.9771428571428571,
+        "shoeScaleRatio": 0.9710144927536232
+      },
+      "anchor": {
+        "mode": "feet",
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.38,
+          "right": 0.69,
+          "top": 0.78,
+          "bottom": 1
+        },
+        "target": {
+          "x": 256,
+          "y": 480
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9741399063799142,
+          "rgbMeanAbsoluteDifferenceOverUnion": 32.71912519413256
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9650095664299381,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.82159599038673
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9781408914959827,
+          "rgbMeanAbsoluteDifferenceOverUnion": 21.997690481095557
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9030101042162619,
+          "rgbMeanAbsoluteDifferenceOverUnion": 46.57522439119011
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9134402684420317,
+          "rgbMeanAbsoluteDifferenceOverUnion": 46.131528046421664
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.8671894294887627,
+          "rgbMeanAbsoluteDifferenceOverUnion": 53.12013254301473
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.8947324397231342,
+          "rgbMeanAbsoluteDifferenceOverUnion": 43.01604246391056
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9252990487958159,
+          "rgbMeanAbsoluteDifferenceOverUnion": 35.52430559254091
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9774064870520534,
+          "rgbMeanAbsoluteDifferenceOverUnion": 27.132658325340774
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9720294108092304,
+          "rgbMeanAbsoluteDifferenceOverUnion": 32.01457185037594
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.98047221921369,
+          "rgbMeanAbsoluteDifferenceOverUnion": 19.04734827972129
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9621937543133195,
+          "rgbMeanAbsoluteDifferenceOverUnion": 31.624705256498736
+        }
+      ],
+      "auditFile": "character-source/characters/white-dragon/audits/click.json",
+      "sourceAnalysis": {
+        "character": "white-dragon",
+        "group": "click",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "6da469ef5c267359aaea6f5fc32c6541dd7cf1acec06dacc96ed0010ce14a943",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 140,
+            "right": 357,
+            "top": 58,
+            "bottom": 347,
+            "width": 218,
+            "height": 290,
+            "pixels": 41583
+          },
+          {
+            "left": 459,
+            "right": 677,
+            "top": 58,
+            "bottom": 347,
+            "width": 219,
+            "height": 290,
+            "pixels": 41717
+          },
+          {
+            "left": 1093,
+            "right": 1313,
+            "top": 58,
+            "bottom": 347,
+            "width": 221,
+            "height": 290,
+            "pixels": 42045
+          },
+          {
+            "left": 776,
+            "right": 995,
+            "top": 59,
+            "bottom": 347,
+            "width": 220,
+            "height": 289,
+            "pixels": 41879
+          },
+          {
+            "left": 1094,
+            "right": 1314,
+            "top": 391,
+            "bottom": 676,
+            "width": 221,
+            "height": 286,
+            "pixels": 41362
+          },
+          {
+            "left": 140,
+            "right": 356,
+            "top": 392,
+            "bottom": 676,
+            "width": 217,
+            "height": 285,
+            "pixels": 40696
+          },
+          {
+            "left": 458,
+            "right": 681,
+            "top": 391,
+            "bottom": 677,
+            "width": 224,
+            "height": 287,
+            "pixels": 41571
+          },
+          {
+            "left": 773,
+            "right": 995,
+            "top": 392,
+            "bottom": 676,
+            "width": 223,
+            "height": 285,
+            "pixels": 41832
+          },
+          {
+            "left": 140,
+            "right": 357,
+            "top": 717,
+            "bottom": 1004,
+            "width": 218,
+            "height": 288,
+            "pixels": 41469
+          },
+          {
+            "left": 1094,
+            "right": 1313,
+            "top": 717,
+            "bottom": 1004,
+            "width": 220,
+            "height": 288,
+            "pixels": 41999
+          },
+          {
+            "left": 458,
+            "right": 677,
+            "top": 718,
+            "bottom": 1004,
+            "width": 220,
+            "height": 287,
+            "pixels": 41782
+          },
+          {
+            "left": 776,
+            "right": 995,
+            "top": 718,
+            "bottom": 1004,
+            "width": 220,
+            "height": 287,
+            "pixels": 41892
+          }
+        ],
+        "columnBounds": [
+          0,
+          408,
+          727,
+          1044,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          369,
+          697,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 57,
+              "length": 58
+            },
+            {
+              "start": 348,
+              "end": 390,
+              "length": 43
+            },
+            {
+              "start": 678,
+              "end": 716,
+              "length": 39
+            },
+            {
+              "start": 1005,
+              "end": 1085,
+              "length": 81
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 139,
+              "length": 140
+            },
+            {
+              "start": 358,
+              "end": 457,
+              "length": 100
+            },
+            {
+              "start": 682,
+              "end": 772,
+              "length": 91
+            },
+            {
+              "start": 996,
+              "end": 1092,
+              "length": 97
+            },
+            {
+              "start": 1315,
+              "end": 1447,
+              "length": 133
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.12,
+            "right": 0.92,
+            "top": 0,
+            "bottom": 0.62
+          },
+          "head": {
+            "left": 166,
+            "top": 58,
+            "right": 340,
+            "bottom": 237,
+            "width": 175,
+            "height": 180,
+            "pixels": 23359,
+            "centroidX": 251.54411575838006,
+            "centroidY": 163.733721477803
+          },
+          "shoeBand": {
+            "left": 222,
+            "top": 338,
+            "right": 290,
+            "bottom": 347,
+            "width": 69,
+            "height": 10,
+            "pixels": 358,
+            "centroidX": 256.93854748603354,
+            "centroidY": 341.4664804469274
+          },
+          "footBaseline": 347,
+          "visible": {
+            "left": 140,
+            "top": 58,
+            "right": 357,
+            "bottom": 347,
+            "width": 218,
+            "height": 290,
+            "pixels": 41583,
+            "centroidX": 247.96183536541375,
+            "centroidY": 217.6162855012866
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 408,
+              "height": 369
+            },
+            "visibleBounds": {
+              "left": 140,
+              "top": 58,
+              "right": 357,
+              "bottom": 347,
+              "width": 218,
+              "height": 290,
+              "pixels": 41583,
+              "centroidX": 247.96183536541375,
+              "centroidY": 217.6162855012866
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 408,
+              "top": 0,
+              "width": 319,
+              "height": 369
+            },
+            "visibleBounds": {
+              "left": 459,
+              "top": 58,
+              "right": 677,
+              "bottom": 347,
+              "width": 219,
+              "height": 290,
+              "pixels": 41717,
+              "centroidX": 159.50840185056452,
+              "centroidY": 217.6805139391615
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 727,
+              "top": 0,
+              "width": 317,
+              "height": 369
+            },
+            "visibleBounds": {
+              "left": 776,
+              "top": 59,
+              "right": 995,
+              "bottom": 347,
+              "width": 220,
+              "height": 289,
+              "pixels": 41879,
+              "centroidX": 157.36903937534325,
+              "centroidY": 218.0003104181093
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1044,
+              "top": 0,
+              "width": 404,
+              "height": 369
+            },
+            "visibleBounds": {
+              "left": 1093,
+              "top": 58,
+              "right": 1313,
+              "bottom": 347,
+              "width": 221,
+              "height": 290,
+              "pixels": 42045,
+              "centroidX": 157.727958140088,
+              "centroidY": 217.91582827922463
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 369,
+              "width": 408,
+              "height": 328
+            },
+            "visibleBounds": {
+              "left": 140,
+              "top": 392,
+              "right": 356,
+              "bottom": 676,
+              "width": 217,
+              "height": 285,
+              "pixels": 40696,
+              "centroidX": 248.85413799882053,
+              "centroidY": 180.66448791035975
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 408,
+              "top": 369,
+              "width": 319,
+              "height": 328
+            },
+            "visibleBounds": {
+              "left": 458,
+              "top": 391,
+              "right": 681,
+              "bottom": 677,
+              "width": 224,
+              "height": 287,
+              "pixels": 41571,
+              "centroidX": 161.91734622693704,
+              "centroidY": 180.12761299944674
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 727,
+              "top": 369,
+              "width": 317,
+              "height": 328
+            },
+            "visibleBounds": {
+              "left": 773,
+              "top": 392,
+              "right": 995,
+              "bottom": 676,
+              "width": 223,
+              "height": 285,
+              "pixels": 41832,
+              "centroidX": 161.96105851979345,
+              "centroidY": 180.29812105565117
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1044,
+              "top": 369,
+              "width": 404,
+              "height": 328
+            },
+            "visibleBounds": {
+              "left": 1094,
+              "top": 391,
+              "right": 1314,
+              "bottom": 676,
+              "width": 221,
+              "height": 286,
+              "pixels": 41362,
+              "centroidX": 160.77239978724432,
+              "centroidY": 180.4861467047048
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 697,
+              "width": 408,
+              "height": 389
+            },
+            "visibleBounds": {
+              "left": 140,
+              "top": 717,
+              "right": 357,
+              "bottom": 1004,
+              "width": 218,
+              "height": 288,
+              "pixels": 41469,
+              "centroidX": 248.77293882177048,
+              "centroidY": 177.82767850683643
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 408,
+              "top": 697,
+              "width": 319,
+              "height": 389
+            },
+            "visibleBounds": {
+              "left": 458,
+              "top": 718,
+              "right": 677,
+              "bottom": 1004,
+              "width": 220,
+              "height": 287,
+              "pixels": 41782,
+              "centroidX": 159.61581542290938,
+              "centroidY": 178.0457373988799
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 727,
+              "top": 697,
+              "width": 317,
+              "height": 389
+            },
+            "visibleBounds": {
+              "left": 776,
+              "top": 718,
+              "right": 995,
+              "bottom": 1004,
+              "width": 220,
+              "height": 287,
+              "pixels": 41892,
+              "centroidX": 157.8839396543493,
+              "centroidY": 177.979136828034
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1044,
+              "top": 697,
+              "width": 404,
+              "height": 389
+            },
+            "visibleBounds": {
+              "left": 1094,
+              "top": 717,
+              "right": 1313,
+              "bottom": 1004,
+              "width": 220,
+              "height": 288,
+              "pixels": 41999,
+              "centroidX": 159.11724088668777,
+              "centroidY": 178.01545274887496
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared foot-region alpha centroid and sole baseline define translation anchors.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/white-dragon/click/白发龙姬-摸头.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 53,
+        "durationMs": 1060,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 548555,
+        "sha256": "fa10f801f583ca969ec399aede3419c52267a5219d2b1e58adfdad2c1839524c",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "53",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "1.060000",
+            "size": "548555"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 154598,
+          "foregroundPixels": 90300,
+          "width": 512,
+          "height": 512
+        }
+      }
+    },
+    "carry": {
+      "id": "carry",
+      "source": "raw/carry.png",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceSha256": "4cc2b0c612d3495d749421e4c57941450d8c3e6437ad255dfab99379102e1a32",
+      "genuineDrawings": 12,
+      "distinctPackedFrameHashes": 12,
+      "generatedIntermediatePoses": false,
+      "crossfadeFrames": false,
+      "frames": [
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-01.png",
+          "durationMs": 120
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-02.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-03.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-04.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-05.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-06.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-07.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-08.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-09.png",
+          "durationMs": 60
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-10.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-11.png",
+          "durationMs": 80
+        },
+        {
+          "file": "character-source/characters/white-dragon/frames/carry/frame-12.png",
+          "durationMs": 120
+        }
+      ],
+      "output": "assets/characters/white-dragon/click/白发龙姬-拖拽悬空.webm",
+      "totalDurationMs": 980,
+      "groupUniformScale": 1.6081270230076108,
+      "neutralFrameCalibration": {
+        "method": "one fixed neutral head-width ratio and reference idle head-centroid anchor",
+        "referenceHeadWidth": 171,
+        "sourceHeadWidth": 161,
+        "neutralHeadRegion": {
+          "space": "visible-bounds",
+          "left": 0.12,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.62
+        },
+        "referenceOutputHeadCentroid": {
+          "x": 246.48164147085473,
+          "y": 208.69841517293037
+        }
+      },
+      "anchor": {
+        "mode": "head",
+        "bandHeight": null,
+        "region": {
+          "space": "visible-bounds",
+          "left": 0.12,
+          "right": 0.92,
+          "top": 0,
+          "bottom": 0.62
+        },
+        "target": {
+          "x": 246.48164147085473,
+          "y": 208.69841517293037
+        }
+      },
+      "sourceEdgeWarnings": [],
+      "cellEdgeWarnings": [],
+      "status": "encoded-alpha-decode-checked",
+      "loopAudit": [
+        {
+          "from": 1,
+          "to": 2,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9295317324731274,
+          "rgbMeanAbsoluteDifferenceOverUnion": 32.264396600205856
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9723747730191771,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.744943679229962
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9086528851717427,
+          "rgbMeanAbsoluteDifferenceOverUnion": 36.855648484210896
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9334249181020818,
+          "rgbMeanAbsoluteDifferenceOverUnion": 33.62191341716862
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9363783106429072,
+          "rgbMeanAbsoluteDifferenceOverUnion": 35.344310402197536
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9812189441827021,
+          "rgbMeanAbsoluteDifferenceOverUnion": 25.143712639113964
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9873755009508666,
+          "rgbMeanAbsoluteDifferenceOverUnion": 21.092916313001624
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9883423586040915,
+          "rgbMeanAbsoluteDifferenceOverUnion": 18.31324494298321
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9734540778051656,
+          "rgbMeanAbsoluteDifferenceOverUnion": 23.43542671382131
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9807880871054985,
+          "rgbMeanAbsoluteDifferenceOverUnion": 17.31843862352337
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "loopSeam": false,
+          "alphaSilhouetteIoU": 0.9881581638694814,
+          "rgbMeanAbsoluteDifferenceOverUnion": 15.123790248786213
+        },
+        {
+          "from": 12,
+          "to": 1,
+          "loopSeam": true,
+          "alphaSilhouetteIoU": 0.9821742674503411,
+          "rgbMeanAbsoluteDifferenceOverUnion": 17.76489410385116
+        }
+      ],
+      "auditFile": "character-source/characters/white-dragon/audits/carry.json",
+      "sourceAnalysis": {
+        "character": "white-dragon",
+        "group": "carry",
+        "width": 1448,
+        "height": 1086,
+        "sourceSha256": "4cc2b0c612d3495d749421e4c57941450d8c3e6437ad255dfab99379102e1a32",
+        "foregroundComponentsOver1000Pixels": [
+          {
+            "left": 456,
+            "right": 656,
+            "top": 62,
+            "bottom": 331,
+            "width": 201,
+            "height": 270,
+            "pixels": 34614
+          },
+          {
+            "left": 788,
+            "right": 988,
+            "top": 62,
+            "bottom": 331,
+            "width": 201,
+            "height": 270,
+            "pixels": 34232
+          },
+          {
+            "left": 1119,
+            "right": 1320,
+            "top": 62,
+            "bottom": 337,
+            "width": 202,
+            "height": 276,
+            "pixels": 35833
+          },
+          {
+            "left": 124,
+            "right": 324,
+            "top": 63,
+            "bottom": 337,
+            "width": 201,
+            "height": 275,
+            "pixels": 35654
+          },
+          {
+            "left": 124,
+            "right": 324,
+            "top": 394,
+            "bottom": 664,
+            "width": 201,
+            "height": 271,
+            "pixels": 34738
+          },
+          {
+            "left": 456,
+            "right": 656,
+            "top": 396,
+            "bottom": 669,
+            "width": 201,
+            "height": 274,
+            "pixels": 35733
+          },
+          {
+            "left": 1120,
+            "right": 1320,
+            "top": 397,
+            "bottom": 669,
+            "width": 201,
+            "height": 273,
+            "pixels": 35751
+          },
+          {
+            "left": 788,
+            "right": 988,
+            "top": 397,
+            "bottom": 670,
+            "width": 201,
+            "height": 274,
+            "pixels": 35761
+          },
+          {
+            "left": 456,
+            "right": 656,
+            "top": 727,
+            "bottom": 1000,
+            "width": 201,
+            "height": 274,
+            "pixels": 35494
+          },
+          {
+            "left": 124,
+            "right": 324,
+            "top": 727,
+            "bottom": 1001,
+            "width": 201,
+            "height": 275,
+            "pixels": 35720
+          },
+          {
+            "left": 788,
+            "right": 987,
+            "top": 727,
+            "bottom": 1001,
+            "width": 200,
+            "height": 275,
+            "pixels": 35601
+          },
+          {
+            "left": 1119,
+            "right": 1320,
+            "top": 727,
+            "bottom": 1001,
+            "width": 202,
+            "height": 275,
+            "pixels": 35768
+          }
+        ],
+        "columnBounds": [
+          0,
+          390,
+          722,
+          1054,
+          1448
+        ],
+        "rowBounds": [
+          0,
+          366,
+          699,
+          1086
+        ],
+        "zeroAlpha64ProjectionRanges": {
+          "rows": [
+            {
+              "start": 0,
+              "end": 61,
+              "length": 62
+            },
+            {
+              "start": 338,
+              "end": 393,
+              "length": 56
+            },
+            {
+              "start": 671,
+              "end": 726,
+              "length": 56
+            },
+            {
+              "start": 1002,
+              "end": 1085,
+              "length": 84
+            }
+          ],
+          "columns": [
+            {
+              "start": 0,
+              "end": 123,
+              "length": 124
+            },
+            {
+              "start": 325,
+              "end": 455,
+              "length": 131
+            },
+            {
+              "start": 657,
+              "end": 787,
+              "length": 131
+            },
+            {
+              "start": 989,
+              "end": 1118,
+              "length": 130
+            },
+            {
+              "start": 1321,
+              "end": 1447,
+              "length": 127
+            }
+          ]
+        },
+        "neutral": {
+          "headRegion": {
+            "space": "visible-bounds",
+            "left": 0.12,
+            "right": 0.92,
+            "top": 0,
+            "bottom": 0.62
+          },
+          "head": {
+            "left": 148,
+            "top": 63,
+            "right": 308,
+            "bottom": 233,
+            "width": 161,
+            "height": 171,
+            "pixels": 20499,
+            "centroidX": 227.53817259378505,
+            "centroidY": 163.98760915166594
+          },
+          "shoeBand": {
+            "left": 202,
+            "top": 328,
+            "right": 251,
+            "bottom": 337,
+            "width": 50,
+            "height": 10,
+            "pixels": 291,
+            "centroidX": 226.6426116838488,
+            "centroidY": 331.8213058419244
+          },
+          "footBaseline": 337,
+          "visible": {
+            "left": 124,
+            "top": 63,
+            "right": 324,
+            "bottom": 337,
+            "width": 201,
+            "height": 275,
+            "pixels": 35654,
+            "centroidX": 224.28986929937736,
+            "centroidY": 212.5660234475795
+          }
+        },
+        "frames": [
+          {
+            "frame": 1,
+            "cell": {
+              "left": 0,
+              "top": 0,
+              "width": 390,
+              "height": 366
+            },
+            "visibleBounds": {
+              "left": 124,
+              "top": 63,
+              "right": 324,
+              "bottom": 337,
+              "width": 201,
+              "height": 275,
+              "pixels": 35654,
+              "centroidX": 224.28986929937736,
+              "centroidY": 212.5660234475795
+            }
+          },
+          {
+            "frame": 2,
+            "cell": {
+              "left": 390,
+              "top": 0,
+              "width": 332,
+              "height": 366
+            },
+            "visibleBounds": {
+              "left": 456,
+              "top": 62,
+              "right": 656,
+              "bottom": 331,
+              "width": 201,
+              "height": 270,
+              "pixels": 34614,
+              "centroidX": 166.31371699312416,
+              "centroidY": 207.69607673195816
+            }
+          },
+          {
+            "frame": 3,
+            "cell": {
+              "left": 722,
+              "top": 0,
+              "width": 332,
+              "height": 366
+            },
+            "visibleBounds": {
+              "left": 788,
+              "top": 62,
+              "right": 988,
+              "bottom": 331,
+              "width": 201,
+              "height": 270,
+              "pixels": 34232,
+              "centroidX": 166.34672236503857,
+              "centroidY": 206.32285580743164
+            }
+          },
+          {
+            "frame": 4,
+            "cell": {
+              "left": 1054,
+              "top": 0,
+              "width": 394,
+              "height": 366
+            },
+            "visibleBounds": {
+              "left": 1119,
+              "top": 62,
+              "right": 1320,
+              "bottom": 337,
+              "width": 202,
+              "height": 276,
+              "pixels": 35833,
+              "centroidX": 166.16540618982503,
+              "centroidY": 212.35785449166968
+            }
+          },
+          {
+            "frame": 5,
+            "cell": {
+              "left": 0,
+              "top": 366,
+              "width": 390,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 124,
+              "top": 394,
+              "right": 324,
+              "bottom": 664,
+              "width": 201,
+              "height": 271,
+              "pixels": 34738,
+              "centroidX": 224.16109159997697,
+              "centroidY": 174.63008808797284
+            }
+          },
+          {
+            "frame": 6,
+            "cell": {
+              "left": 390,
+              "top": 366,
+              "width": 332,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 456,
+              "top": 396,
+              "right": 656,
+              "bottom": 669,
+              "width": 201,
+              "height": 274,
+              "pixels": 35733,
+              "centroidX": 166.51028461086392,
+              "centroidY": 179.08392802171662
+            }
+          },
+          {
+            "frame": 7,
+            "cell": {
+              "left": 722,
+              "top": 366,
+              "width": 332,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 788,
+              "top": 397,
+              "right": 988,
+              "bottom": 670,
+              "width": 201,
+              "height": 274,
+              "pixels": 35761,
+              "centroidX": 166.33407902463577,
+              "centroidY": 179.91127205615055
+            }
+          },
+          {
+            "frame": 8,
+            "cell": {
+              "left": 1054,
+              "top": 366,
+              "width": 394,
+              "height": 333
+            },
+            "visibleBounds": {
+              "left": 1120,
+              "top": 397,
+              "right": 1320,
+              "bottom": 669,
+              "width": 201,
+              "height": 273,
+              "pixels": 35751,
+              "centroidX": 166.43556823585354,
+              "centroidY": 179.9890073004951
+            }
+          },
+          {
+            "frame": 9,
+            "cell": {
+              "left": 0,
+              "top": 699,
+              "width": 390,
+              "height": 387
+            },
+            "visibleBounds": {
+              "left": 124,
+              "top": 727,
+              "right": 324,
+              "bottom": 1001,
+              "width": 201,
+              "height": 275,
+              "pixels": 35720,
+              "centroidX": 224.49344904815229,
+              "centroidY": 177.9494680851064
+            }
+          },
+          {
+            "frame": 10,
+            "cell": {
+              "left": 390,
+              "top": 699,
+              "width": 332,
+              "height": 387
+            },
+            "visibleBounds": {
+              "left": 456,
+              "top": 727,
+              "right": 656,
+              "bottom": 1000,
+              "width": 201,
+              "height": 274,
+              "pixels": 35494,
+              "centroidX": 166.37699329464135,
+              "centroidY": 176.54276779173944
+            }
+          },
+          {
+            "frame": 11,
+            "cell": {
+              "left": 722,
+              "top": 699,
+              "width": 332,
+              "height": 387
+            },
+            "visibleBounds": {
+              "left": 788,
+              "top": 727,
+              "right": 987,
+              "bottom": 1001,
+              "width": 200,
+              "height": 275,
+              "pixels": 35601,
+              "centroidX": 166.19783152158647,
+              "centroidY": 177.5244234712508
+            }
+          },
+          {
+            "frame": 12,
+            "cell": {
+              "left": 1054,
+              "top": 699,
+              "width": 394,
+              "height": 387
+            },
+            "visibleBounds": {
+              "left": 1119,
+              "top": 727,
+              "right": 1320,
+              "bottom": 1001,
+              "width": 202,
+              "height": 275,
+              "pixels": 35768,
+              "centroidX": 166.20557481547752,
+              "centroidY": 177.62284723775443
+            }
+          }
+        ],
+        "touchedSourceEdges": [],
+        "touchedCellEdges": []
+      },
+      "notes": [
+        "Original RGB and alpha are preserved within technical crops; no threshold cleanup or retouching was applied.",
+        "Every non-negligible visible detail in an inspected cell is included, even when a weapon/accessory is disconnected.",
+        "One fixed uniform scale is shared by every drawing in this action; visible height is allowed to change naturally.",
+        "The declared head-region alpha centroid stays fixed; feet can move naturally while suspended.",
+        "Loop difference metrics are diagnostic and do not establish artistic approval.",
+        "50fps video encoding repeats/holds these genuine drawings and does not create 50 unique poses per second."
+      ],
+      "video": {
+        "file": "assets/characters/white-dragon/click/白发龙姬-拖拽悬空.webm",
+        "codec": "VP9 with alpha",
+        "fps": 50,
+        "encodedFramesIncludingHolds": 49,
+        "durationMs": 980,
+        "uniqueSourceDrawings": 12,
+        "intermediatePoseGeneration": false,
+        "bytes": 498784,
+        "sha256": "64563a70d1e98f5a863c32f579ecd2a9c51458bf570e96beb2bafea6b0b62ca4",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vp9",
+              "width": 512,
+              "height": 512,
+              "r_frame_rate": "50/1",
+              "avg_frame_rate": "50/1",
+              "nb_read_frames": "49",
+              "tags": {
+                "ALPHA_MODE": "1"
+              }
+            }
+          ],
+          "format": {
+            "duration": "0.980000",
+            "size": "498784"
+          }
+        },
+        "alphaDecodeCheck": {
+          "decoder": "libvpx-vp9",
+          "transparentPixels": 152759,
+          "foregroundPixels": 92287,
+          "width": 512,
+          "height": 512
+        }
+      }
+    }
+  }
+}

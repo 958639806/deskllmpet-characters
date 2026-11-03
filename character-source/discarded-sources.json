@@ -1,0 +1,9 @@
+[
+  {
+    "file": "raw/idle-v1.png",
+    "sha256": "0ba53f1495aaaad334422e8d9be002f30fdd1a77aa89a8b960d5b1a2fc106145",
+    "status": "discarded-not-for-distribution",
+    "reason": "All four figures in row three have alpha>64 touching the bottom boundary of the source sheet (y=1085); possible clipped soles. Production uses raw/idle-v2.png instead.",
+    "replaceWith": "raw/idle-v2.png"
+  }
+]
